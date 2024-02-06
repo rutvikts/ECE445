@@ -40,9 +40,12 @@ Given that we already have a 3 omni wheel robot, it is a little bit smaller than
 
 ## Criterion For Success
 
-Omni-wheel drivetrain that can drive in a specified direction.
-Close-range object detection system working (can detect objects inside the path of travel).
-UWB Localization down to an accuracy of < 1m. 
+1. Omni-wheel drivetrain that can drive in a specified direction that is defined by UWB system.
+2. UWB Localization down to an accuracy of < 1m.
+3. Close-range object detection system that can detect objects inside the path of travel and alert the user.
+
+** define power levels on block diagram
+
 
 ### Initial considerations
 
