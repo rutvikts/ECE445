@@ -1,0 +1,11 @@
+2/19/24 - started researching necessary components to build the drivetrain portion of the PCB
+
+Microcontroller: STM32F401RBT6
+PWM: Based of STM32F401RBT6 Data Sheet it looks like you can utilize the TIMx Pins for PWM
+Any of these general-purpose timers can be used to generate PWM outputs. Mainly TIM2, TIM3, TIM4 and TIM5
+H-Bridge: TI DRV8212 12V PWM control 
+GPIO: for output to DC motor from H-Bridge and input from encoder to Microcontroller
+
+On the microcontroller
+TIM2, TIM3, TIM4, TIM5 all have independent DMA request generation. They are capable of handling quadrature (incremental) encoder signals and the digital outputs from 1 to 4 hall-effect sensors
+
