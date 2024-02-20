@@ -3,7 +3,7 @@
 Microcontroller: STM32F401RBT6
 PWM: Based of STM32F401RBT6 Data Sheet it looks like you can utilize the TIMx Pins for PWM
 Any of these general-purpose timers can be used to generate PWM outputs. Mainly TIM2, TIM3, TIM4 and TIM5
-H-Bridge: TI DRV8212 12V PWM control 
+H-Bridge: TI DRV8212P 12V PWM control 
 GPIO: for output to DC motor from H-Bridge and input from encoder to Microcontroller
 
 On the microcontroller
