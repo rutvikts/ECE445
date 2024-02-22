@@ -1,0 +1,21 @@
+Week of 02/19:
+- Worked on Project Proposal
+- Worked on Initial CAD of robot
+- Worked on Design Document
+
+
+Week of 02/12:
+
+- Sourced components for robot: secured two sizes of oxygen tanks, motor VEX robotics motor controllers, window motors as a possible motor option, spare 12 & 10 AWG wires, 4" omni-wheels./
+- Worked on Project proposal.
+- Ordered three UWB Transceivers (DW3000 series).
+- Motor choice research.
+- Went into Machine Shop to discuss project design with Greg.
+	- Decided to stick with a 3 wheel omni-wheel design.
+
+
+
+Week of 02/05:
+- Worked on Team Contract
+- Worked on RFA
+- Discussed project design with Greg at the Machine Shop
