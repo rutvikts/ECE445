@@ -35,3 +35,4 @@ Since we want to stay within this range, the tolerance for the Percent of Screen
 The center of the child and the center of the screen will be compared to determine if a correction will be made. Therefore, we divide \( 15\% \) by \( 2\% \) to get \( 7.5\% \) and add \( 1.5\% \) to that value, so if the difference between the two midpoints is more than \( 9\% \), then a correction will be made."
 25-Feb	PCB AI Design	Integrating AI into our PCB design. Software called Flux.AI does this. Could have some beneficial uses for future uses.
 26-Feb	Design Review	Working on design review presentation. Adding Computer Vision Subsystem slides and writing bullet points to follow while presenting.
+29-Feb  Limit Switch Bumper Concept  3 Roller Lever Arm Limit switches, each having a bumper attached to them that is 10 in. in length.
