@@ -9,3 +9,5 @@ GPIO: for output to DC motor from H-Bridge and input from encoder to Microcontro
 On the microcontroller
 TIM2, TIM3, TIM4, TIM5 all have independent DMA request generation. They are capable of handling quadrature (incremental) encoder signals and the digital outputs from 1 to 4 hall-effect sensors
 
+2/29/24
+Ordered necessary parts for our project.
