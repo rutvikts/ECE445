@@ -1,0 +1,37 @@
+3-Feb	Email Professor Hoeim (CS 445) about best approach to using OpenCV	OpenPose for tracking people
+3-Feb	Computer Vision Block Diagram	Created block diagram for computer vision, power, and control system modules
+6-Feb	TA Meeting	"Revised criteria for success. 1. Omni-wheel drivetrain that can drive in a specified direction that is defined by UWB system.
+2. UWB Localization down to an accuracy of < 1m.
+3. Close-range object detection system that can detect objects inside the path of travel and alert the user."
+7-Feb	Project Proposal	Working on project proposal due tomorrow. Rewording previous project proposal. Researching ethics and safety to include from IEEE and ACM.
+8-Feb	Project Proposal	Researching ethics and safety from IEEE and ACM documents. Research voltage and power requirements for subsystem requirements.
+18-Feb	Webcam Specs Research	"Logitech Pro 9000 PC Internet Camera - 2 Megapixel Camera, 0.96 ounces, 3.35x7.64x8.86 inches, USB, 30 fps (possible resource could be this github: https://github.com/fabian57fabian/OpenPose-to-robotics) Installation
+
+Before doing anything, clone and install OpenPose and follow the instructions (good luck there, it's quite difficult).
+Clone this repo inside {OpenPoseClonedRepo}/build/examples/tutorial_api_python/ with:
+git clone https://github.com/fabian57fabian/OpenPose-to-robotics.git .
+If you are under Windows, you'll need first to move avay all files and folder inside the tutorial_api_python folder, then clone and move back again. 3. Install all python needed modules (using pip it's easyer). OpenCv would be already been installed by OpenPose.
+pip3 install pyserial
+To run OPtoROBO from your terminal just enter the {OpenPoseClonedRepo}/build/examples/tutorial_api_python/ folder and type:
+python3 IVA_project.py"
+20-Feb	Proposal Corrections	Fixed issues with original proposal - High Level Requirements, Block Diagram Legend, Computer Vision Subsystem Requirements
+21-Feb	Design Document	Copy over sections from proposal corrections document
+22-Feb	Design Document	"Finish Design document sections remaining. Worked out Computer Vision calculations. Results showed that greater than 9% will cause a correction (see design document). Calculated cost including materials and labor cost ($19,665.11). Compiled all required items into a list. Calculations for FOV area of CV module: Average Shoulder Width of Child = 9 in. = 0.23 m. \\
+Resolution of Camera = 1600 x 1200 pixels \\
+FOV of Camera = 75 degrees \\
+\\
+The child will be a distance of 1 m. $\pm$ 25\% (0.75 m. -- 1.25 m.) away from the robot. Below is an image of the minimum and maximum ranges. The red boxes are used to represent the width of the child. \\
+\
+To calculate how much of the screen the child will take up, we must first calculate the horizontal width of the FOV. This is done by performing some simple trigonometry. The calculation for 1 meter will be done below. The same process will be done for 0.75 meters and 1.25 meters. \\
+Half of FOV = \( \frac{75^\circ}{2} = 37.5^\circ \) \\
+$x = (1 \text{ meter}) \times \tan(37.5^\circ) = 0.767 \text{ meters}$ \\
+\\
+Now, we multiply this distance by 2, and we get the horizontal FOV width. \\
+Horizontal FOV Width = $0.767 \text{ meters} \times 2 = 1.534 \text{ meters}$ \\
+Take the average shoulder width of the child and divide it the value you just found.\\
+Percent of Screen = $\frac{\text{Average Shoulder Width of Child}}{\text{Horizontal FOV Width}} = 15\%$ \\
+A diagram with the calculated percentages can be found below where the red box represents the child.
+Since we want to stay within this range, the tolerance for the Percent of Screen taken up by the child will be \(15\% \pm 3\%\). \\
+The center of the child and the center of the screen will be compared to determine if a correction will be made. Therefore, we divide \( 15\% \) by \( 2\% \) to get \( 7.5\% \) and add \( 1.5\% \) to that value, so if the difference between the two midpoints is more than \( 9\% \), then a correction will be made."
+25-Feb	PCB AI Design	Integrating AI into our PCB design. Software called Flux.AI does this. Could have some beneficial uses for future uses.
+26-Feb	Design Review	Working on design review presentation. Adding Computer Vision Subsystem slides and writing bullet points to follow while presenting.
