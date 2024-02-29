@@ -1,7 +1,13 @@
+Week of 02/26:
+- Created and worked on PCB Design
+- Created Design Review Presentation
+- Helped with power subsystem design and research
+
 Week of 02/19:
 - Worked on Project Proposal
 - Worked on Initial CAD of robot
 - Worked on Design Document
+- Worked on Design Review Presentation
 
 
 Week of 02/12:
