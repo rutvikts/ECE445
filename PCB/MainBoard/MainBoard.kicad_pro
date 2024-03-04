@@ -588,6 +588,18 @@
     [
       "7cb6be40-ad14-404d-82c5-ced68dcd093c",
       "Power"
+    ],
+    [
+      "87b874bb-56af-4c33-87da-99e1e73164b9",
+      "3v3_1.2A_BuckConverter"
+    ],
+    [
+      "4fef1ee3-4720-43a9-aff6-10e8deab9b92",
+      "5v_3A_BuckConverter"
+    ],
+    [
+      "8cb007db-9f86-4a77-beb4-a68d484ad3fd",
+      "5v_1.2A_BuckConverter"
     ]
   ],
   "text_variables": {}
