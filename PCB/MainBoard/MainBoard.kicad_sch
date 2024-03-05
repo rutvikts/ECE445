@@ -3202,22 +3202,23 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push_Dual"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_Push_Dual"
-				(at 0 -6.35 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3225,7 +3226,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3242,7 +3243,90 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3260,20 +3344,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Dual_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3285,7 +3358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.508) (xy 0 -1.016)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -3297,79 +3370,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.508) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 0 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3380,18 +3381,7 @@
 					)
 				)
 				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3402,7 +3392,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3420,7 +3410,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3435,55 +3425,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_1_1"
-				(rectangle
-					(start -3.175 5.715)
-					(end 3.175 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3802,12 +3743,6 @@
 		)
 	)
 	(junction
-		(at 77.47 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e24c484-aa28-45ce-8179-4eed6c604676")
-	)
-	(junction
 		(at 45.72 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3866,12 +3801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a31728b-79b5-4dbb-91b0-d09dc4ac9ed6")
-	)
-	(junction
-		(at 93.98 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aafb739c-7c98-40af-a8c3-4ff5b9992fcd")
 	)
 	(junction
 		(at 255.27 46.99)
@@ -4055,7 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 72.39) (xy 77.47 72.39)
+			(xy 80.01 72.39) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4645,23 +4574,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 77.47 77.47)
+			(xy 74.93 72.39) (xy 74.93 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "808dbebc-3308-4fdb-a212-36c8eb6987dd")
-	)
-	(wire
-		(pts
-			(xy 77.47 72.39) (xy 77.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8298ea96-1b63-4a5d-9815-9c56c4381628")
 	)
 	(wire
 		(pts
@@ -4825,6 +4744,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 72.39) (xy 100.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9183ba-e1fc-4960-9a77-a52119d19b09")
+	)
+	(wire
+		(pts
 			(xy 45.72 180.34) (xy 45.72 184.15)
 		)
 		(stroke
@@ -4985,16 +4914,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 93.98 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4418814-25d8-40a4-b565-512117d538f1")
-	)
-	(wire
-		(pts
 			(xy 100.33 133.35) (xy 119.38 133.35)
 		)
 		(stroke
@@ -5035,16 +4954,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 93.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d88875ad-42b3-4def-9585-11dc999e38de")
-	)
-	(wire
-		(pts
 			(xy 201.93 137.16) (xy 219.71 137.16)
 		)
 		(stroke
@@ -5052,16 +4961,6 @@
 			(type default)
 		)
 		(uuid "dcc6170f-5a9b-483e-92bf-e769686c86f8")
-	)
-	(wire
-		(pts
-			(xy 93.98 72.39) (xy 100.33 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14812d3-c24f-4242-ba6d-8662d79ac6f5")
 	)
 	(wire
 		(pts
@@ -5092,16 +4991,6 @@
 			(type default)
 		)
 		(uuid "e615e59b-cf1d-42c4-b8d4-b529db542e0e")
-	)
-	(wire
-		(pts
-			(xy 77.47 77.47) (xy 80.01 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6be0646-dc62-4142-8a18-c218bf4067c4")
 	)
 	(wire
 		(pts
@@ -5165,16 +5054,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 93.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1841f7-e567-46ee-a6c2-056c067be582")
-	)
-	(wire
-		(pts
 			(xy 243.84 60.96) (xy 251.46 60.96)
 		)
 		(stroke
@@ -5226,6 +5105,18 @@
 			(type none)
 		)
 		(uuid 4da4546b-92f4-464a-a547-33db53e83484)
+	)
+	(rectangle
+		(start 175.26 21.59)
+		(end 223.52 50.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b33e2935-2f24-453c-a79a-adeedadd846c)
 	)
 	(rectangle
 		(start 228.6 21.59)
@@ -5283,6 +5174,17 @@
 			(justify right bottom)
 		)
 		(uuid "9f966028-e5a0-4c9f-bd84-93cee1bd82f4")
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 196.342 25.4 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fb95885-b204-4188-a227-1a737e3e217d")
 	)
 	(text "LIMIT SWITCH ORs "
 		(exclude_from_sim no)
@@ -5687,6 +5589,74 @@
 			(project "MainBoard"
 				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0241c2c9-e41f-452d-83d4-d0e3232bd30c")
+		(property "Reference" "SW1"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d59d544d-6b00-4ef4-ae93-c5bc43b70fee")
+		)
+		(pin "1"
+			(uuid "d1695052-d673-4597-9ba4-66304051e623")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6520,6 +6490,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4462a2c8-a469-48e9-b307-a96034b6e543")
+		(property "Reference" "H1"
+			(at 182.88 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5mm"
+			(at 180.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 40.64 0)
 		(unit 1)
@@ -6723,80 +6757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 85.09 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6167018a-d95d-468f-a615-ab00602bcbf4")
-		(property "Reference" "SW1"
-			(at 85.09 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Dual"
-			(at 85.09 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
-			(at 85.09 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 85.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8aea773b-93db-4a2d-a9ff-316d586912fe")
-		)
-		(pin "1"
-			(uuid "819a9362-eda5-4028-aef9-e16a55307fa9")
-		)
-		(pin "2"
-			(uuid "0d97848c-4f72-4a34-8d4f-99dcd828b42e")
-		)
-		(pin "3"
-			(uuid "cdacc9e0-4b2b-47ac-a6e1-c9e108e30235")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+12V_1")
 		(lib_id "power:+12V")
 		(at 96.52 30.48 0)
@@ -6918,7 +6878,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f5")
+			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f6")
 		)
 		(instances
 			(project "MainBoard"
@@ -7272,7 +7232,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f5")
+			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f7")
 		)
 		(instances
 			(project "MainBoard"
@@ -7483,6 +7443,70 @@
 			(project "MainBoard"
 				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 205.74 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be93d652-3e8d-415e-b6e0-5d25ea8a72b8")
+		(property "Reference" "H2"
+			(at 208.28 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 208.28 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5mm"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7724,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 77.47 81.28 0)
+		(at 74.93 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7709,7 +7733,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9cf5b1f-2893-477f-abf1-c1d8bb4d9a3d")
 		(property "Reference" "#PWR015"
-			(at 77.47 87.63 0)
+			(at 74.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 86.36 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +7750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 81.28 0)
+			(at 74.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 81.28 0)
+			(at 74.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 81.28 0)
+			(at 74.93 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +7843,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f5")
+			(uuid "104c3aab-5d62-4e63-af33-6158ab3c20f8")
 		)
 		(instances
 			(project "MainBoard"
@@ -8031,7 +8055,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc2e7512-bedb-46e6-92b8-f693a1cfb916")
+			(uuid "cc2e7512-bedb-46e6-92b8-f693a1cfb917")
 		)
 		(instances
 			(project "MainBoard"
@@ -8109,6 +8133,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e92993b9-d90f-4936-ba6d-5548ee27a9b9")
+		(property "Reference" "H3"
+			(at 182.88 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5mm"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 63.5 40.64 0)
 		(unit 1)
@@ -8169,6 +8257,70 @@
 			(project "MainBoard"
 				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 205.74 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d1fe63-90c1-446a-995d-2ea02743b3ce")
+		(property "Reference" "H4"
+			(at 208.28 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 208.28 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5mm"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850"
+					(reference "H4")
 					(unit 1)
 				)
 			)

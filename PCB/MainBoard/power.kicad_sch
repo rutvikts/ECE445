@@ -2816,7 +2816,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d4")
+			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d5")
 		)
 		(instances
 			(project "MainBoard"
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95403b19-a86d-4639-884c-2d3f631bebcc")
+			(uuid "95403b19-a86d-4639-884c-2d3f631bebcd")
 		)
 		(instances
 			(project "MainBoard"
@@ -3152,7 +3152,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d4")
+			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d6")
 		)
 		(instances
 			(project "MainBoard"
@@ -3218,7 +3218,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95403b19-a86d-4639-884c-2d3f631bebcc")
+			(uuid "95403b19-a86d-4639-884c-2d3f631bebce")
 		)
 		(instances
 			(project "MainBoard"
@@ -3629,7 +3629,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d4")
+			(uuid "f050f5cd-a38e-4ebc-9e3c-c926335f86d7")
 		)
 		(instances
 			(project "MainBoard"
@@ -4103,7 +4103,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95403b19-a86d-4639-884c-2d3f631bebcc")
+			(uuid "95403b19-a86d-4639-884c-2d3f631bebcf")
 		)
 		(instances
 			(project "MainBoard"
