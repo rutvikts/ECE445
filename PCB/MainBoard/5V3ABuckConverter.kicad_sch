@@ -1207,9 +1207,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1257,7 +1257,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1307,8 +1307,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1810,7 +1810,7 @@
 		)
 		(uuid "f353e789-eeaa-41aa-b428-7dc178f591bf")
 	)
-	(hierarchical_label "12V_IN"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 74.93 91.44 180)
 		(fields_autoplaced yes)
@@ -1822,8 +1822,8 @@
 		)
 		(uuid "0299db73-8b3b-4064-af4b-47c2be868d04")
 	)
-	(hierarchical_label "5V_3A"
-		(shape input)
+	(hierarchical_label "+5V_3A"
+		(shape output)
 		(at 214.63 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1861,7 +1861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 160.9852 99.06 0)
 			(effects
 				(font
@@ -1898,72 +1898,6 @@
 			(project "MainBoard"
 				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850/7cb6be40-ad14-404d-82c5-ced68dcd093c/4fef1ee3-4720-43a9-aff6-10e8deab9b92"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 209.55 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17084600-1683-4b65-adce-81fea8971b0b")
-		(property "Reference" "#PWR045"
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_3A"
-			(at 209.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5898c039-44e3-472d-8025-abff8e26c5a5")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850/7cb6be40-ad14-404d-82c5-ced68dcd093c/4fef1ee3-4720-43a9-aff6-10e8deab9b92"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2064,7 +1998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 103.8352 100.33 0)
 			(effects
 				(font
@@ -2199,7 +2133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.102 95.25 90)
 			(effects
 				(font
@@ -2269,7 +2203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 139.3952 91.44 0)
 			(effects
 				(font
@@ -2338,7 +2272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -2403,7 +2337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 194.31 91.44 0)
 			(effects
 				(font
@@ -2473,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 83.5152 100.33 0)
 			(effects
 				(font
@@ -2510,6 +2444,72 @@
 			(project "MainBoard"
 				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850/7cb6be40-ad14-404d-82c5-ced68dcd093c/4fef1ee3-4720-43a9-aff6-10e8deab9b92"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b78f3e-845f-4cea-8e5c-5b647c20e5ec")
+		(property "Reference" "#PWR045"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_3A"
+			(at 209.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e5c4bcf-1574-4ff1-9345-c7d758b2e8ba")
+		)
+		(instances
+			(project "MainBoard"
+				(path "/ce4aa5cc-bc13-46ce-a61c-95c4be48f850/7cb6be40-ad14-404d-82c5-ced68dcd093c/4fef1ee3-4720-43a9-aff6-10e8deab9b92"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 172.4152 99.06 0)
 			(effects
 				(font
@@ -2678,7 +2678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -2748,7 +2748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 93.6752 100.33 0)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 181.102 107.95 90)
 			(effects
 				(font
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 185.42 119.38 0)
 			(effects
 				(font

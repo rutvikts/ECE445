@@ -427,7 +427,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CustomSymbols"
+    ]
   },
   "meta": {
     "filename": "MainBoard.kicad_pro",
@@ -600,6 +602,10 @@
     [
       "8cb007db-9f86-4a77-beb4-a68d484ad3fd",
       "5v_1.2A_BuckConverter"
+    ],
+    [
+      "c59897d9-fd07-467a-8969-b08d71900d1f",
+      "LimitSwitchORGates"
     ]
   ],
   "text_variables": {}
