@@ -2403,7 +2403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 162.56 88.9 0)
 			(effects
 				(font
