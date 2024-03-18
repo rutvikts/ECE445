@@ -1,13 +1,13 @@
-# ECE445
+# ECE 445
 UIUC ECE 445 - Senior Design Project Repository
 
 # Project Details
 ## Oxygen Delivery Robot
 
 Team Members:
-- Rutvik Sayankar (rutviks2)
-- Aidan Dunican (dunican2)
-- Nazar Kalyniouk (nazark2)
+- Rutvik Sayankar (rutviks2@illinois.edu)
+- Aidan Dunican (dunican2@illinois.edu)
+- Nazar Kalyniouk (nazark2@illinois.edu)
 
 ## Problem
 
