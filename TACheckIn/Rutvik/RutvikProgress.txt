@@ -1,9 +1,3 @@
-<<<<<<< Updated upstream
-Week of 02/26:
-- Created and worked on PCB Design
-- Created Design Review Presentation
-- Helped with power subsystem design and research
-=======
 Week of 03/18:
 - Working on OWB Triangulation with Law of Cosines
 - PCB Testing
@@ -20,8 +14,8 @@ Week of 02/26:
 - Worked on designing PCB schematic
 - Created Design Review presentation
 - Finished CAD v1 of robot
+- Helped with power subsystem design and research
 - Discussed design with machine shop (with Gregg)
->>>>>>> Stashed changes
 
 Week of 02/19:
 - Worked on Project Proposal
