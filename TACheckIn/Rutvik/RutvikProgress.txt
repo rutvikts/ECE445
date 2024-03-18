@@ -1,7 +1,27 @@
+<<<<<<< Updated upstream
 Week of 02/26:
 - Created and worked on PCB Design
 - Created Design Review Presentation
 - Helped with power subsystem design and research
+=======
+Week of 03/18:
+- Working on OWB Triangulation with Law of Cosines
+- PCB Testing
+
+Week of 03/11:
+- Spring Break
+
+Week of 03/04:
+- Finished PCB schematic, board layout and annotations
+- Sourced M6 oxygen tank
+- Provided all parts to machine shop and had final discussion regarding the design
+
+Week of 02/26:
+- Worked on designing PCB schematic
+- Created Design Review presentation
+- Finished CAD v1 of robot
+- Discussed design with machine shop (with Gregg)
+>>>>>>> Stashed changes
 
 Week of 02/19:
 - Worked on Project Proposal
@@ -9,17 +29,13 @@ Week of 02/19:
 - Worked on Design Document
 - Worked on Design Review Presentation
 
-
 Week of 02/12:
-
 - Sourced components for robot: secured two sizes of oxygen tanks, motor VEX robotics motor controllers, window motors as a possible motor option, spare 12 & 10 AWG wires, 4" omni-wheels./
-- Worked on Project proposal.
-- Ordered three UWB Transceivers (DW3000 series).
-- Motor choice research.
-- Went into Machine Shop to discuss project design with Greg.
-	- Decided to stick with a 3 wheel omni-wheel design.
-
-
+- Worked on Project proposal
+- Ordered three UWB Transceivers (DW3000 series)
+- Motor choice research
+- Went into Machine Shop to discuss project design with Greg
+	- Decided to stick with a 3 wheel omni-wheel design
 
 Week of 02/05:
 - Worked on Team Contract
