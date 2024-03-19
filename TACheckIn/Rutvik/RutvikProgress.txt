@@ -1,5 +1,6 @@
 Week of 03/18:
 - Working on OWB Triangulation with Law of Cosines
+- PCB v1.1 revisions (Fixed incorrect footprints, and incorrect inductor sizing for 5V 3A buck converter circuit)
 - PCB Testing
 
 Week of 03/11:

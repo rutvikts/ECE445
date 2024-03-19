@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRS8030T6R8MJGJ
+D Fixed Inductors 8030 6.8uH 37.7mOhms +/-20%Tol 3000mA
+K
+F https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf
+$ENDCMP
+#
+#End Doc Library

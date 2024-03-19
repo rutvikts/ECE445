@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=5442170
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=2.4
+Released=2022-03-17 12:08:27
+Downloaded=2024-03-19 04:28:23
+3D=Y

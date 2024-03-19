@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=NRS8030T6R8MJGJ
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2022-12-21 10:23:24
+Downloaded=2024-03-19 04:56:51
+3D=Y
