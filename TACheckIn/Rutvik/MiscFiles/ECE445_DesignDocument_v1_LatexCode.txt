@@ -20,6 +20,7 @@
 \usetikzlibrary{shapes.geometric} % for tikz charts
 \usetikzlibrary {arrows.meta,bending,positioning} % for tikz charts
 \usepackage{array} % for R&V Tables
+\usepackage{hyperref} % for hyper links
 
 \pagestyle{fancy}
 
@@ -546,7 +547,7 @@ To calculate how much of the screen the child will take up, we must first calcul
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=0.3\textwidth]{calc1.png}\\
-    \caption{   } 
+    \caption{Calculation of Horizonatal FOV width} 
     \label{fig:calc1}
 \end{center}
 \end{figure}
@@ -563,7 +564,7 @@ A diagram with the calculated percentages can be found in figure \ref{fig:calc2}
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=0.8\textwidth]{calc2.png}\\
-    \caption{   } 
+    \caption{Percent of screen calculations for openCV algorithm} 
     \label{fig:calc2}
 \end{center}
 \end{figure}
@@ -580,6 +581,118 @@ Robots and oxygen tanks are both inherently dangerous as they stand and combinin
 
 \subsection{Cost Analysis}
 The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before shipping our project cost is \$665.31. Estimated shipping cost will be 5\%, which will add another \$33.27 and with a sales tax of 10\%, another \$66.53 will be added. We can expect a salary of \$42/hr $\times$ 2.5 hr $\times$ 60 hours to complete = \$6300 per team member. We need to multiply this amount with the number of team members, \$6300 $\times$ 3 = \$18,900 in labor cost. This comes out to be a total cost of \$19,665.11.
+
+\subsubsection{Requirements and Verification}
+\begin{center}
+\begin{tabular}{ | m{10em} || m{10em} || m{10em} || m{5em} | } 
+  \hline
+  Item & Manufacturer & Quantity & Cost  \\ 
+  \hline
+  \hline
+  \href{https://www.gobilda.com/modern-robotics-12vdc-motor/}{12VDC motors}
+  &
+  Modern Robotics
+  &
+  3
+  &
+  14.99
+  \\
+  \hline
+  \href{https://www.pitsco.com/TETRIX-Omni-Wheel-Packs?SKU=}{Omni Wheel Packs}
+  &
+  TETRIX MAX
+  &
+  3
+  &
+  29.95
+  \\
+  \hline
+  Victor 888 Speed controller
+  &
+  Vex Project
+  &
+  3
+  &
+  49.99
+  \\
+  \hline
+  \href{https://www.amazon.com/Logitech-Internet-Camera-2-0-Megapixel-Resolution/dp/B000RZQZM0}{QuickCam Pro 9000}
+  &
+  Logitech
+  &
+  1
+  & 
+  74.99
+  \\
+  \hline
+  \href{https://www.makerfabs.com/esp32-uwb-dw3000.html}{ESP32UWB DW3000(Ultra-wideband tranciver)}
+  &
+  MakerFabs
+  &
+  3
+  & 
+  43.80
+  \\
+  \hline
+  \href{https://www.emsstuff.com/portable-oxygen-tank-m6/}{Portable Oxygen Tank 'M6'}
+  &
+  EMS Stuff
+  &
+  1
+  &
+  63.50
+  \\
+  \hline
+  \href{https://vilros.com/products/raspberry-pi-4-model-b}{Raspberry Pi 4 1GB Model B}
+  &
+  Raspberry Pi
+  &
+  1
+  &
+  35
+  \\
+  \hline
+  DC 12V 12000mAh Rechargable battery
+  &
+  ABENIC
+  &
+  1
+  &
+  60.99
+  \\
+  \hline
+  SS-5GL2
+  &
+  Omron Electronics inc-EMC Div
+  &
+  3
+  &
+  2.75
+  \\
+  \hline
+  STM32F401RBT6
+  &
+  STMicroelectronics
+  &
+  1
+  &
+  6.39
+  \\
+  \hline
+  Misc. Passive Components
+  &
+  &
+  &
+  \\
+  \hline
+  
+  
+  
+  
+  
+ \end{tabular}
+\end{center}
+
 
 \begin{figure}[H]
 \begin{center}
