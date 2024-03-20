@@ -652,7 +652,7 @@ The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before 
   35
   \\
   \hline
-  DC 12V 12000mAh Rechargable battery
+  \href{https://www.amazon.com/12000mAh-Rechargeable-Protable-Lithium-DC1212A/dp/B074P1YSWH}{DC 12V 12000mAh Rechargable battery}
   &
   ABENIC
   &
@@ -661,7 +661,7 @@ The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before 
   60.99
   \\
   \hline
-  SS-5GL2
+  \href{https://us.rs-online.com/product/omron-electronic-components/ss-5gl2/70176078/?gad_source=1&gclid=CjwKCAjwkuqvBhAQEiwA65XxQEdV2orcnIybOFSI0OQn9_tCmev5GoiAtupcvYr7Y0vKhSKmM4KsuxoCHLQQAvD_BwE&gclsrc=aw.ds}{SS-5GL2}
   &
   Omron Electronics inc-EMC Div
   &
@@ -670,7 +670,7 @@ The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before 
   2.75
   \\
   \hline
-  STM32F401RBT6
+  \href{https://estore.st.com/en/stm32f401rbt6-cpn.html}{STM32F401RBT6}
   &
   STMicroelectronics
   &
