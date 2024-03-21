@@ -310,7 +310,7 @@ Thus, using these three channels, we can define the robot's desired $V_x$, $V_y$
 
 \begin{figure}[H]
 \begin{center}
-    \includegraphics[width=0.8\textwidth]{channel.PNG}\\
+    \includegraphics[width=0.8\textwidth]{channel.png}\\
     \caption{ Channel Distribution  } 
     \label{fig:ChannelDistribution}
 \end{center}
@@ -525,13 +525,36 @@ The Power Subsystem is responsible for supplying power to all other components o
   & 
   Connect the input of the voltage regulator to the voltage supply. Connect the output of the voltage regulator to a programmable load. Set voltage supply to maximum battery voltage.
   
-  Check the voltage reading with a multimeter to make sure the output voltage does not fall outside of 12V ±5\% under no load and full load. 
+  Check the voltage reading with a multimeter to make sure the output voltage does not fall outside of 12V $\pm$ 5\% under no load and full load. 
   \\ 
   \hline
 \end{tabular}
 \end{center}
 
 \newpage
+
+\subsection{OpenCV Supporting Material}
+
+Figure \ref{fig:CVModule_PerformanceTest} has a sample image of a child as well as the vertical lines at the two center points. In this scenario, a corrective measure will need to be taken since the child is too far off the center of the screen.
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{CVModule_PerformanceTest.png}\\
+    \caption{ OpenCV Performance Test  } 
+    \label{fig:CVModule_PerformanceTest}
+\end{center}
+\end{figure}
+
+The provided code in figure \ref{fig:CVModule_TestCode} uses OpenCV to detect bodies in an input image using a pre-trained Haar cascade classifier. If bodies are detected, it calculates the distance of the center of the detected body from the center of the image. Vertical lines are drawn at the center of the child and the center of the screen. A relative distance is calculated by subtracting the two center points and dividing that value by the number of pixels of the screen. This provides the degrees-off-center value and will print a message if a correction is required. In testing, this value can be adjusted later. If no person is detected, it prints a message indicating so.
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{CVModule_TestCode.png}\\
+    \caption{ OpenCV Test Code  } 
+    \label{fig:CVModule_TestCode}
+\end{center}
+\end{figure}
+
 
 \subsection{Tolerance Analysis}
 
@@ -582,7 +605,6 @@ Robots and oxygen tanks are both inherently dangerous as they stand and combinin
 \subsection{Cost Analysis}
 The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before shipping our project cost is \$665.31. Estimated shipping cost will be 5\%, which will add another \$33.27 and with a sales tax of 10\%, another \$66.53 will be added. We can expect a salary of \$42/hr $\times$ 2.5 hr $\times$ 60 hours to complete = \$6300 per team member. We need to multiply this amount with the number of team members, \$6300 $\times$ 3 = \$18,900 in labor cost. This comes out to be a total cost of \$19,665.11.
 
-\subsubsection{Requirements and Verification}
 \begin{center}
 \begin{tabular}{ | m{10em} || m{10em} || m{10em} || m{5em} | } 
   \hline
@@ -607,9 +629,9 @@ The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before 
   29.95
   \\
   \hline
-  Victor 888 Speed controller
+  \href{https://www.team358.org/files/programming/ControlSystem2015-2019/specs/217-2769-Victor888UserManual.pdf}{Victor 888 Speed Controller}
   &
-  Vex Project
+  Vex Robotics
   &
   3
   &
@@ -686,21 +708,10 @@ The cost for parts has been derived from figure \ref{fig:ComponentCost}. Before 
   \\
   \hline
   
-  
-  
-  
-  
  \end{tabular}
+ \label{fig:ComponentCost}
 \end{center}
-
-
-\begin{figure}[H]
-\begin{center}
-    \includegraphics[width=0.7\textwidth]{CostBreakdownExcel.png}\\
-    \caption{ Component Cost Breakdown  } 
-    \label{fig:ComponentCost}
-\end{center}
-\end{figure}
+\caption{ Component Cost Breakdown }
 
 \subsection{Schedule}
 
