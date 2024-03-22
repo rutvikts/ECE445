@@ -37,4 +37,5 @@ The center of the child and the center of the screen will be compared to determi
 26-Feb	Design Review	Working on design review presentation. Adding Computer Vision Subsystem slides and writing bullet points to follow while presenting.
 29-Feb  Limit Switch Bumper Concept  3 Roller Lever Arm Limit switches, each having a bumper attached to them that is 10 in. in length.
 04-Mar  Adding Buck Converters into PCB Design  Replacing the voltage regulators with buck converters for 3.3V_0.15A, 5V_3A, and 5V_1.2A
+07-Mar  Met with Tianxiang about CV Module concerns  Notes: STM32 doesn't need to send infor to CV Module. UART will probably be the easiest to use. Use already existing libraries. First get communication between RaspberryPi and STM32 to work first before you start implementing algorithm.
 20-Mar  Corrections to Design Document  Optimized OpenCV code and fixed errors associated with Design Document.
