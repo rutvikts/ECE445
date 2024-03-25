@@ -14,3 +14,7 @@ Ordered necessary parts for our project.
 
 
 3/4/2024: created schematics for buck converters 3.3V .15A and 5V 1.2A
+
+3/19/2024: Revised Design Doc
+
+3/24/2024: Created Bumper Cad drawing to be 3D printed and used on limit switches
