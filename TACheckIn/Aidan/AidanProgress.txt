@@ -18,3 +18,11 @@ Ordered necessary parts for our project.
 3/19/2024: Revised Design Doc
 
 3/24/2024: Created Bumper Cad drawing to be 3D printed and used on limit switches
+
+3/25/2024: Updated Bumper Cad Drawings to make it easier to 3D print and test
+
+3/27/2024: Created Cad drawing for PCB housing
+
+3/28/2024: Updated Bumper Cad Drawing
+
+

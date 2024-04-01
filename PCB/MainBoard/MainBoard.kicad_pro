@@ -490,7 +490,7 @@
       "plot": "Gerber_filesV1.1/",
       "pos_files": "",
       "specctra_dsn": "Routing/MainBoard.dsn",
-      "step": "",
+      "step": "MainBoard.step",
       "svg": "",
       "vrml": ""
     },
