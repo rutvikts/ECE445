@@ -39,3 +39,7 @@ The center of the child and the center of the screen will be compared to determi
 04-Mar  Adding Buck Converters into PCB Design  Replacing the voltage regulators with buck converters for 3.3V_0.15A, 5V_3A, and 5V_1.2A
 07-Mar  Met with Tianxiang about CV Module concerns  Notes: STM32 doesn't need to send infor to CV Module. UART will probably be the easiest to use. Use already existing libraries. First get communication between RaspberryPi and STM32 to work first before you start implementing algorithm.
 20-Mar  Corrections to Design Document  Optimized OpenCV code and fixed errors associated with Design Document.
+24-Mar  CV Module Video Input  Get webcam video input working with code.
+25-Mar  CV Module Video Input  Test code with people.
+26-Mar  Individual Progress Report  Work on progress report, compile images and test code.
+28-Mar  CV Module Video Input  Adjust minNeighbors and minSize parameters to detect bodies using Logitech camera and proper robot height.

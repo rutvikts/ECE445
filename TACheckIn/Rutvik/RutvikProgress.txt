@@ -1,3 +1,8 @@
+Week of 03/25:
+- Working on OWB Triangulation with Law of Cosines
+- Working on PCB v2 Testing
+- Helping ensure base build with machine shop is coming along as desired
+
 Week of 03/18:
 - Working on OWB Triangulation with Law of Cosines
 - Completed PCB v1.1 revisions (Fixed incorrect footprints, and incorrect inductor sizing for 5V 3A buck converter circuit)
