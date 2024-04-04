@@ -45,3 +45,4 @@ The center of the child and the center of the screen will be compared to determi
 28-Mar  CV Module Video Input  Adjust minNeighbors and minSize parameters to detect bodies using Logitech camera and proper robot height.
 31-Mar  Testing minSize paramters  Adjusted minSize parameter. Approximate size of body is 30x70. Might have to scale down when testing.
 2-April  PCB Soldering and Testing  Soldered PCB and tested buck converters and OR gate. Everything works.
+3-April  PCB Housing Fusion360  Designed PCB Housing with dimensions from KiCad.
