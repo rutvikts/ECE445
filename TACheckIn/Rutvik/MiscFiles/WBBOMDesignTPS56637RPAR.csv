@@ -1,0 +1,12 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbb,Vishay-Dale,CRCW080510K0FKEA,1,0.01,6.75,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Rfbt,Panasonic,ERJ-6ENF7322V,1,0.01,6.75,Resistance: 73.2 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Cinx,MuRata,GRM21BR71H104KA01L,1,0.03,6.75,Cap: 100 nF  Total Derated Cap: 91 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+U1,Texas Instruments,TPS56637RPAR,1,0.8,16,
+Rpg,Vishay-Dale,CRCW0805100KFKEA,1,0.01,6.75,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Cin,TDK,C2012X5R1V156M125AC,1,0.2,6.75,Cap: 15 µF  Total Derated Cap: 1.2 µF  VDC: 35 V  ESR: 1.67 mΩ  Package: 0805  
+Cout,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 32 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+L1,Vishay-Dale,IHLP3232DZER3R3M01,1,0.71,111.83,L: 3.3 µH  DCR: 17.7 mΩ  IDC: 9.2 A  
+Cboot,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+Cff,Kemet,C0805C101K3GACTU,1,0.03,6.75,Cap: 100 pF  Total Derated Cap: 100 pF  VDC: 25 V  ESR: 0 Ω  Package: 0805  
+Rff,Vishay-Dale,CRCW080520K0FKEA,1,0.01,6.75,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 125 mW  
