@@ -46,3 +46,4 @@ The center of the child and the center of the screen will be compared to determi
 31-Mar  Testing minSize paramters  Adjusted minSize parameter. Approximate size of body is 30x70. Might have to scale down when testing.
 2-April  PCB Soldering and Testing  Soldered PCB and tested buck converters and OR gate. Everything works.
 3-April  PCB Housing Fusion360  Designed PCB Housing with dimensions from KiCad.
+4-April  Revised Buck Converter Concept  Worked with Rutvik to revise buck converters. Concept: Have one 5V@4.5A buck converter with a current clamp to provide 5V@4A and 5V@2A. Step this down using an LDO to 3.3V@1.2A. Possible ways to step down current could be to use some sort of ICs or a transformer. Will need to conduct further research since most ICs are maxed at 2A. Possibly look into using a combination of these ICs.
