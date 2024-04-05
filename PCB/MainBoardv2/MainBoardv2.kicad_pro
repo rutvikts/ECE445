@@ -580,6 +580,10 @@
     [
       "cc711eab-7295-453b-97e2-e692aa39ee0f",
       "PWM & Encoders"
+    ],
+    [
+      "0b6d272a-beab-45a0-995b-a46a98d72224",
+      "Motors"
     ]
   ],
   "text_variables": {}
