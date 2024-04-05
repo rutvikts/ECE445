@@ -5864,6 +5864,12 @@
 		(uuid "060a4171-3a89-49fb-bb5d-afe677d0cceb")
 	)
 	(junction
+		(at 44.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b2fee85-0649-4f7f-96e8-f78fa033a267")
+	)
+	(junction
 		(at 16.51 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5966,6 +5972,12 @@
 		(uuid "439ead4a-aeb1-4b74-9f81-b0e802530d2a")
 	)
 	(junction
+		(at 44.45 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46785f94-4001-4877-8c91-816ec6d2ef06")
+	)
+	(junction
 		(at 207.01 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6026,10 +6038,22 @@
 		(uuid "7d050a66-16bb-43cc-b6ce-3561014a2151")
 	)
 	(junction
+		(at 46.99 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86dfcd00-8b46-412d-9398-c087a28a5c70")
+	)
+	(junction
 		(at 217.17 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8864e4ea-a49a-4ec5-849b-755c0704a506")
+	)
+	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e05c000-21b8-4911-9c31-10efed36c17e")
 	)
 	(junction
 		(at 68.58 185.42)
@@ -6305,6 +6329,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0680879f-1523-4652-9de2-92a3ec040d42")
+	)
+	(wire
+		(pts
 			(xy 219.71 156.21) (xy 222.25 156.21)
 		)
 		(stroke
@@ -6402,6 +6436,16 @@
 			(type default)
 		)
 		(uuid "11812ec3-6717-4649-b1d1-311c4ddc6233")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1196e84f-3dd3-4788-b7d7-4b52398d0cb4")
 	)
 	(wire
 		(pts
@@ -6655,6 +6699,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a792103-abbd-4bde-978e-f8afc97472c9")
+	)
+	(wire
+		(pts
 			(xy 83.82 127) (xy 83.82 130.81)
 		)
 		(stroke
@@ -6712,6 +6766,16 @@
 			(type default)
 		)
 		(uuid "325c3b1e-8419-4c30-a402-39745ebf5c7c")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 41.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32cd8042-403b-4b36-bdff-170b3eee353d")
 	)
 	(wire
 		(pts
@@ -6865,6 +6929,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 73.66) (xy 46.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466ce228-974d-43e1-962a-43b5946a72cb")
+	)
+	(wire
+		(pts
 			(xy 78.74 115.57) (xy 78.74 118.11)
 		)
 		(stroke
@@ -7002,6 +7076,16 @@
 			(type default)
 		)
 		(uuid "52c9453c-6ee9-4d36-8e55-d47a1906ff7d")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f8d737-7fe9-4a72-adce-2c3075cd9be3")
 	)
 	(wire
 		(pts
@@ -7315,6 +7399,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 82.55) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76652648-60d9-48f7-b1fc-0f90cb42837b")
+	)
+	(wire
+		(pts
 			(xy 185.42 50.8) (xy 194.31 50.8)
 		)
 		(stroke
@@ -7465,6 +7559,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 76.2) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbb2804-5cda-4db8-aaf7-77b3113601c2")
+	)
+	(wire
+		(pts
 			(xy 237.49 35.56) (xy 246.38 35.56)
 		)
 		(stroke
@@ -7545,6 +7649,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925b264f-6dce-40b7-bfb9-91ee65537e93")
+	)
+	(wire
+		(pts
 			(xy 139.7 87.63) (xy 142.24 87.63)
 		)
 		(stroke
@@ -7552,6 +7666,16 @@
 			(type default)
 		)
 		(uuid "93575616-46c0-4f89-b456-ed77ad629eea")
+	)
+	(wire
+		(pts
+			(xy 44.45 91.44) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944a0c96-43d8-4a9c-9fa9-ce4fe699f310")
 	)
 	(wire
 		(pts
@@ -7802,6 +7926,16 @@
 			(type default)
 		)
 		(uuid "a82e7b64-7175-4bc7-8835-b16b03521104")
+	)
+	(wire
+		(pts
+			(xy 41.91 76.2) (xy 44.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85e1733-4e6e-46b0-ba18-4b64241d96b4")
 	)
 	(wire
 		(pts
@@ -8062,6 +8196,16 @@
 			(type default)
 		)
 		(uuid "c0ebb38a-aa66-4fbe-b742-f667d16e16a4")
+	)
+	(wire
+		(pts
+			(xy 46.99 86.36) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e726f2-eb6b-4a63-8433-9405a61e3777")
 	)
 	(wire
 		(pts
@@ -8962,6 +9106,17 @@
 			(justify right bottom)
 		)
 		(uuid "4528de8d-503f-4662-867b-a8eafee07250")
+	)
+	(text "Motor Power Connections"
+		(exclude_from_sim no)
+		(at 42.672 68.072 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify right bottom)
+		)
+		(uuid "6acf7c1d-d3c6-4362-b576-8d97b0b49aef")
 	)
 	(text "6A Synchronous Buck Converter"
 		(exclude_from_sim no)
@@ -10287,6 +10442,73 @@
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 36.83 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a4582b-d62e-4506-9784-003391b9d8cd")
+		(property "Reference" "J20"
+			(at 33.528 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 24.384 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local:CONN_1985195"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b09cb4d5-0599-43a7-8a7e-acd38622d9a4")
+		)
+		(pin "2"
+			(uuid "ec3cb9d6-97d7-4fee-8de6-ce3fa802d0cf")
+		)
+		(instances
+			(project "MainBoardv2"
+				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -12266,6 +12488,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 46.99 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9996b6-a368-47ca-90a7-558d2a394851")
+		(property "Reference" "#PWR036"
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 46.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ad1fd1f-5845-4d41-ac07-5b0f3d2cb343")
+		)
+		(instances
+			(project "MainBoardv2"
+				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "basic:R")
 		(at 102.87 165.1 90)
 		(unit 1)
@@ -12528,6 +12816,73 @@
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "615cb9bd-f875-4c40-a554-10b6e7c01f75")
+		(property "Reference" "#PWR034"
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 95.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f05cd5-0dc3-4c2c-a871-f6a4f9e7444b")
+		)
+		(instances
+			(project "MainBoardv2"
+				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15599,6 +15954,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 36.83 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7ed2fb5-d4f5-413d-81d8-88fa9ab9b84c")
+		(property "Reference" "J22"
+			(at 33.528 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 24.384 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local:CONN_1985195"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a1f2d0-11e6-40a7-8b66-6e204a5fa554")
+		)
+		(pin "2"
+			(uuid "b35dae62-e43f-4133-93bb-caf16fc07d56")
+		)
+		(instances
+			(project "MainBoardv2"
+				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "basic:C")
 		(at 114.3 118.11 90)
 		(unit 1)
@@ -15864,6 +16286,73 @@
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 36.83 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4757267-aa7b-45ef-81ae-61cc6cfb4bd2")
+		(property "Reference" "J21"
+			(at 33.528 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 24.384 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local:CONN_1985195"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff85f6cf-b1cc-412e-8aee-6ec398f2c057")
+		)
+		(pin "2"
+			(uuid "ae10fb21-47b3-483b-b55c-982c97aa0223")
+		)
+		(instances
+			(project "MainBoardv2"
+				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
+					(reference "J21")
 					(unit 1)
 				)
 			)

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "29beda8d-0d72-4878-88be-f7ad30114cb9")
+	(uuid "7db5f48d-6832-4ef2-a05e-344ae8d7f90b")
 	(paper "A4")
 	(title_block
 		(title "ECE445_MainBoard")
@@ -2087,6 +2087,17 @@
 		)
 		(uuid "684e0e72-24dd-41bd-9637-3bf7e2f49c33")
 	)
+	(label "REG_IN"
+		(at 82.55 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7581c1f8-6420-48b7-a9ff-1f17835548b0")
+	)
 	(label "RC_PWM3"
 		(at 107.95 67.31 0)
 		(fields_autoplaced yes)
@@ -2097,6 +2108,17 @@
 			(justify left bottom)
 		)
 		(uuid "7e345f2d-7c1a-4d72-aaee-9a69fd5cff50")
+	)
+	(label "REG_IN"
+		(at 168.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "808f3f4b-ced4-40a8-8050-b4f402d5676f")
 	)
 	(label "M3_PWM"
 		(at 91.44 101.6 180)
