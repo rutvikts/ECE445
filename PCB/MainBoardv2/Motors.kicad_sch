@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "19d5af41-7c5e-486c-9acc-59db869f7359")
+	(uuid "98c9f8b9-2bb4-478f-bec2-04152b03a7a4")
 	(paper "A4")
 	(title_block
 		(title "ECE445_MainBoard")
@@ -1428,7 +1428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -1437,7 +1437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -1773,7 +1773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -1977,7 +1977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 91.44 115.57 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 91.44 115.57 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 78.74 115.57 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 78.74 115.57 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017521/9346615"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -2734,7 +2734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.250\" (6.35mm) Through Hole"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017521/9346615"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -2867,7 +2867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.250\" (6.35mm) Through Hole"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1985195/568659"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017521/9346615"
 			(at 64.77 93.98 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.250\" (6.35mm) Through Hole"
 			(at 64.77 93.98 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 91.44 163.83 0)
 			(effects
 				(font
@@ -3134,7 +3134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
 			(at 91.44 163.83 0)
 			(effects
 				(font
