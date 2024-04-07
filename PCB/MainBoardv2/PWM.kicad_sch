@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0ca7b118-120a-41ca-b9cb-ebf46d86209d")
+	(uuid "73899186-3869-4067-91ff-c237a94d8a19")
 	(paper "A4")
 	(title_block
 		(title "ECE445_MainBoard")
@@ -2970,7 +2970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d5530c3-c231-4d88-8eed-f989fe05db20")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 140.462 71.628 0)
 			(effects
 				(font
@@ -3022,7 +3022,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/cc711eab-7295-453b-97e2-e692aa39ee0f"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d7d1092-1a78-4aee-9955-484f42fd3f93")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 140.462 62.738 0)
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/cc711eab-7295-453b-97e2-e692aa39ee0f"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4dfb8c-5053-4d96-be8c-97d8081a5c68")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 140.462 80.518 0)
 			(effects
 				(font
@@ -3444,7 +3444,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/cc711eab-7295-453b-97e2-e692aa39ee0f"
-					(reference "TP13")
+					(reference "TP14")
 					(unit 1)
 				)
 			)

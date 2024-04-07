@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "98c9f8b9-2bb4-478f-bec2-04152b03a7a4")
+	(uuid "06acef5c-74e8-4f1e-ba94-d88b1cf63249")
 	(paper "A4")
 	(title_block
 		(title "ECE445_MainBoard")
@@ -2716,7 +2716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:1985195"
+		(property "Footprint" "CustomFootprints:PHOENIX_1017521"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:1985195"
+		(property "Footprint" "CustomFootprints:PHOENIX_1017521"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:1985195"
+		(property "Footprint" "CustomFootprints:PHOENIX_1017521"
 			(at 64.77 93.98 0)
 			(effects
 				(font
