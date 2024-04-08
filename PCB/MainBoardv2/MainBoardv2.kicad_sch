@@ -6138,12 +6138,6 @@
 		(uuid "10c2e326-253d-4091-83bd-5e4b978b0113")
 	)
 	(junction
-		(at 220.98 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14c5dc2c-f1dc-4d3a-8369-bc6c85fa211a")
-	)
-	(junction
 		(at 177.8 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6366,6 +6360,12 @@
 		(uuid "a3de491b-62d1-4c90-aa2f-e4fd090eceda")
 	)
 	(junction
+		(at 219.71 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4cce5a5-644a-4489-9b0d-f18357212aa5")
+	)
+	(junction
 		(at 173.99 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6532,10 +6532,6 @@
 		(uuid "756271f3-32a3-42f9-a92d-e9c11cbdbae4")
 	)
 	(no_connect
-		(at 227.33 147.32)
-		(uuid "781a826c-0fcb-470f-a957-04ea32701e45")
-	)
-	(no_connect
 		(at 194.31 99.06)
 		(uuid "79e333ee-8a98-443c-8ac4-a79a1a7e84a5")
 	)
@@ -6550,10 +6546,6 @@
 	(no_connect
 		(at 76.2 125.73)
 		(uuid "bd6112f9-025e-4071-baa1-49c7eac2acbd")
-	)
-	(no_connect
-		(at 227.33 157.48)
-		(uuid "bf45afdd-ea5b-4a43-b96d-76ea19487840")
 	)
 	(no_connect
 		(at 267.97 91.44)
@@ -6667,23 +6659,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 152.4) (xy 224.79 152.4)
+			(xy 207.01 152.4) (xy 224.79 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "091ef6a3-91be-4532-8662-2c516a242d1b")
-	)
-	(wire
-		(pts
-			(xy 21.59 40.64) (xy 27.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09352815-85f7-4fc6-8c62-6efe52dd2ce1")
 	)
 	(wire
 		(pts
@@ -6844,6 +6826,16 @@
 			(type default)
 		)
 		(uuid "16b40b1f-dcc5-4c5f-95fa-489ed757c8ff")
+	)
+	(wire
+		(pts
+			(xy 220.98 157.48) (xy 227.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174fc8b1-8f64-425c-936b-8aba07446348")
 	)
 	(wire
 		(pts
@@ -7627,7 +7619,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 154.94) (xy 220.98 162.56)
+			(xy 219.71 154.94) (xy 219.71 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7717,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 43.18) (xy 27.94 43.18)
+			(xy 19.05 43.18) (xy 27.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7844,6 +7836,16 @@
 			(type default)
 		)
 		(uuid "7512cfc2-e3e0-4c74-8321-e18e6ecde973")
+	)
+	(wire
+		(pts
+			(xy 16.51 36.83) (xy 16.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752a3bf3-0f50-429d-92ed-4919b8803359")
 	)
 	(wire
 		(pts
@@ -7977,7 +7979,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 154.94) (xy 220.98 154.94)
+			(xy 207.01 154.94) (xy 219.71 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8207,7 +8209,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 149.86) (xy 220.98 154.94)
+			(xy 219.71 149.86) (xy 219.71 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8334,6 +8336,16 @@
 			(type default)
 		)
 		(uuid "a15e48f9-b3cc-449c-a250-00451cbb9f15")
+	)
+	(wire
+		(pts
+			(xy 220.98 147.32) (xy 220.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c0d907-f201-49f0-b65f-40df0f9cec1c")
 	)
 	(wire
 		(pts
@@ -8507,6 +8519,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad096ad4-1656-4220-b297-c94d1f05d281")
+	)
+	(wire
+		(pts
 			(xy 237.49 149.86) (xy 243.84 149.86)
 		)
 		(stroke
@@ -8597,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 45.72) (xy 27.94 45.72)
+			(xy 16.51 45.72) (xy 27.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8734,6 +8756,16 @@
 			(type default)
 		)
 		(uuid "bf77f40e-b4b8-40d2-9871-30e3a6d28731")
+	)
+	(wire
+		(pts
+			(xy 19.05 40.64) (xy 27.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc7ce07-6e56-4f14-bbea-de6119efa94b")
 	)
 	(wire
 		(pts
@@ -9545,16 +9577,6 @@
 		)
 		(uuid "ff78d7f1-90c2-481d-b67c-286c34f2b8d7")
 	)
-	(wire
-		(pts
-			(xy 21.59 36.83) (xy 21.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa7f735-e311-4898-8acf-d67c813b1bce")
-	)
 	(rectangle
 		(start 160.02 107.95)
 		(end 181.61 134.62)
@@ -9779,12 +9801,12 @@
 		)
 		(uuid "6f9c6811-c3e1-47d9-a43f-3f0ab3b13e11")
 	)
-	(text "Motors, \nEncoders, \nPWM"
+	(text "Motors, \nEncoders, \nPWM,\nLimit \nSwitches"
 		(exclude_from_sim no)
-		(at 14.986 88.646 0)
+		(at 15.24 91.948 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 3.048 3.048)
 				(thickness 0.762)
 				(bold yes)
 			)
@@ -9994,6 +10016,17 @@
 		)
 		(uuid "21c1f10b-bb8d-44fc-9703-03a4cb1f6fde")
 	)
+	(label "12VPowerInput"
+		(at 209.55 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "2687bb99-9f1a-4318-8e60-5e4d124c64e6")
+	)
 	(label "OSC_IN"
 		(at 185.42 60.96 0)
 		(fields_autoplaced yes)
@@ -10116,13 +10149,13 @@
 		(uuid "4c33adbb-d9aa-4cd9-a0e6-0d574c83e0f5")
 	)
 	(label "5V_BUCK"
-		(at 22.86 43.18 180)
+		(at 19.05 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4c3e8d12-31f0-49c5-bf21-2a1be85de419")
 	)
@@ -10158,6 +10191,17 @@
 			(justify right bottom)
 		)
 		(uuid "63d0dd82-4678-452d-a0ff-5ba9b5c16110")
+	)
+	(label "5V_EXT"
+		(at 19.05 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "652fb315-e4b5-4fae-858d-b62b0038f778")
 	)
 	(label "PWR_LED_3V3_Cathode"
 		(at 110.49 39.37 270)
@@ -10202,17 +10246,6 @@
 			(justify left bottom)
 		)
 		(uuid "796b4ac9-d184-4373-86b3-7c072b8039b7")
-	)
-	(label "5V_EXT"
-		(at 22.86 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "828d0d14-19b7-4b87-bc0a-85c6cc584ef1")
 	)
 	(label "TIM1_CH2"
 		(at 73.66 72.39 180)
@@ -10268,6 +10301,17 @@
 			(justify left bottom)
 		)
 		(uuid "ad0ad81e-9788-40fc-896c-08526aa1c70c")
+	)
+	(label "PowerSwitchOff"
+		(at 220.98 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "af0cdb77-edeb-43db-959b-0480eda315c4")
 	)
 	(label "SPI1_MISO"
 		(at 156.21 172.72 0)
@@ -11226,10 +11270,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d7423c9-cc2a-4946-83b5-f470364ffdad")
 		(property "Reference" "J1"
-			(at 34.29 35.6702 0)
+			(at 34.29 35.0551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,14 +11280,14 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 34.29 38.2071 0)
+			(at 34.29 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 33.02 43.18 0)
 			(effects
 				(font
@@ -11974,7 +12017,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 213.36 154.94 180)
+		(at 201.93 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11982,7 +12025,7 @@
 		(dnp no)
 		(uuid "1f32b058-3abc-46de-8ef7-69ee64642a2f")
 		(property "Reference" "J6"
-			(at 210.058 152.146 0)
+			(at 198.628 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12033,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 200.914 154.686 0)
+			(at 200.914 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +12041,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprints:PHOENIX_1017521"
-			(at 213.36 154.94 0)
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12050,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017521/9346615"
-			(at 213.36 154.94 0)
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12059,7 @@
 			)
 		)
 		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.250\" (6.35mm) Through Hole"
-			(at 213.36 154.94 0)
+			(at 201.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,7 +12288,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 149.86 0)
+		(at 219.71 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12253,7 +12296,7 @@
 		(dnp no)
 		(uuid "2e1a46e2-e984-4308-97e3-ca2a1dbe58f6")
 		(property "Reference" "TP8"
-			(at 215.392 144.526 0)
+			(at 214.122 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.392 147.066 0)
+			(at 214.122 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12314,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 226.06 149.86 0)
+			(at 224.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12280,7 +12323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327"
-			(at 226.06 149.86 0)
+			(at 224.79 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12332,7 @@
 			)
 		)
 		(property "Description" "  Black PC Test Point, Miniature Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 220.98 149.86 0)
+			(at 219.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13863,7 +13906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 162.56 0)
+		(at 219.71 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13872,7 +13915,7 @@
 		(fields_autoplaced yes)
 		(uuid "60e09cdc-6675-4947-9a1e-af0ea6276a36")
 		(property "Reference" "#PWR037"
-			(at 220.98 168.91 0)
+			(at 219.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13881,7 +13924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 167.0034 0)
+			(at 219.71 167.0034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13890,7 +13933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 162.56 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +13942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 162.56 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +13951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 162.56 0)
+			(at 219.71 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +14108,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 21.59 36.83 0)
+		(at 16.51 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14074,7 +14117,7 @@
 		(fields_autoplaced yes)
 		(uuid "66e7826d-9e8d-4f16-ab9b-47bd9279c997")
 		(property "Reference" "#PWR07"
-			(at 21.59 40.64 0)
+			(at 16.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +14126,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 21.59 31.75 0)
+			(at 16.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14091,7 +14134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 36.83 0)
+			(at 16.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14100,7 +14143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 36.83 0)
+			(at 16.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14109,7 +14152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 21.59 36.83 0)
+			(at 16.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14221,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -14556,7 +14599,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 109.22 160.02 90)
+		(at 109.22 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14565,7 +14608,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c68c91-a390-4e97-8942-b92e5673193c")
 		(property "Reference" "#FLG04"
-			(at 107.315 160.02 0)
+			(at 109.22 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,12 +14617,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 105.41 160.0199 90)
+			(at 109.22 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18337,8 +18379,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cc711eab-7295-453b-97e2-e692aa39ee0f")
-		(property "Sheetname" "PWM & Encoders"
-			(at 44.704 68.326 0)
+		(property "Sheetname" "PWM & Encoders & Limit Switches"
+			(at 41.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

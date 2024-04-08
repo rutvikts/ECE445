@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "06acef5c-74e8-4f1e-ba94-d88b1cf63249")
+	(uuid "85c34bde-9bab-4386-8d71-c2b663c11598")
 	(paper "A4")
 	(title_block
 		(title "ECE445_MainBoard")
@@ -861,28 +861,10 @@
 		(uuid "06d705f1-abee-4db4-aa89-bf711cc21da4")
 	)
 	(junction
-		(at 91.44 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "075c0c75-b92c-44ba-8133-f3c3b4fe30d8")
-	)
-	(junction
 		(at 78.74 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26a03bb3-b8e0-4b02-bf02-be15de273d56")
-	)
-	(junction
-		(at 91.44 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61fda875-30e2-45a7-b198-dec3de4270d2")
-	)
-	(junction
-		(at 91.44 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b34a3ac4-0a54-486d-8482-142842527dfb")
 	)
 	(junction
 		(at 78.74 139.7)
@@ -902,16 +884,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 91.44 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0998d981-f17e-427d-8b02-9a8e86a04568")
-	)
-	(wire
-		(pts
 			(xy 69.85 44.45) (xy 78.74 44.45)
 		)
 		(stroke
@@ -919,16 +891,6 @@
 			(type default)
 		)
 		(uuid "0fe548eb-9ff9-4566-aa0c-9908da261308")
-	)
-	(wire
-		(pts
-			(xy 91.44 139.7) (xy 101.6 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d0a775-166b-4148-aa2e-8dcd3926e4fb")
 	)
 	(wire
 		(pts
@@ -992,16 +954,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426913d8-711c-4dbe-826f-1c2ed2745616")
-	)
-	(wire
-		(pts
 			(xy 78.74 44.45) (xy 78.74 48.26)
 		)
 		(stroke
@@ -1022,26 +974,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 143.51) (xy 91.44 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53381f98-e386-4975-a906-813279259aff")
-	)
-	(wire
-		(pts
-			(xy 91.44 44.45) (xy 88.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a13ba6-3435-4bcd-a7e1-f9aa7a739cd4")
-	)
-	(wire
-		(pts
 			(xy 69.85 91.44) (xy 78.74 91.44)
 		)
 		(stroke
@@ -1049,16 +981,6 @@
 			(type default)
 		)
 		(uuid "610b29ef-78e0-4e66-b1d3-a114d2a756ec")
-	)
-	(wire
-		(pts
-			(xy 91.44 102.87) (xy 91.44 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7989ff98-a01d-4514-8208-9c3011eaefbe")
 	)
 	(wire
 		(pts
@@ -1112,16 +1034,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 101.6 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b607136-cdd6-4872-937b-0e048cbfbc26")
-	)
-	(wire
-		(pts
 			(xy 78.74 119.38) (xy 78.74 121.92)
 		)
 		(stroke
@@ -1129,16 +1041,6 @@
 			(type default)
 		)
 		(uuid "9bf7b47b-f459-4424-b337-7390554d0ede")
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5f10f9-bb63-4721-9302-a1e09d00ca60")
 	)
 	(wire
 		(pts
@@ -1152,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 44.45) (xy 101.6 44.45)
+			(xy 88.9 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1169,16 +1071,6 @@
 			(type default)
 		)
 		(uuid "be141d81-7da2-442c-aebc-03e438821595")
-	)
-	(wire
-		(pts
-			(xy 91.44 55.88) (xy 91.44 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beaf58e4-e6b8-4833-9858-e4dce7ad3c79")
 	)
 	(wire
 		(pts
@@ -1202,16 +1094,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 167.64) (xy 91.44 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e16703-0b6c-4f12-9c5b-29249627242c")
-	)
-	(wire
-		(pts
 			(xy 78.74 139.7) (xy 78.74 143.51)
 		)
 		(stroke
@@ -1219,16 +1101,6 @@
 			(type default)
 		)
 		(uuid "ccec861b-1dc7-45b7-a69b-cf40e8feb618")
-	)
-	(wire
-		(pts
-			(xy 91.44 151.13) (xy 91.44 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4a79d8-690d-4023-8f1d-d78d984df6a3")
 	)
 	(wire
 		(pts
@@ -1242,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 139.7) (xy 88.9 139.7)
+			(xy 88.9 139.7) (xy 101.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1252,17 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0c080db-d298-468f-987c-236efe3ff725")
-	)
-	(wire
-		(pts
-			(xy 91.44 91.44) (xy 88.9 91.44)
+			(xy 88.9 91.44) (xy 101.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1156,7 @@
 	)
 	(text "Indicator LEDs (When fault LED turns off, \nFuse has tripped)"
 		(exclude_from_sim no)
-		(at 100.076 54.864 0)
+		(at 87.122 55.118 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1338,27 +1200,27 @@
 		)
 		(uuid "1caf490d-59e1-4687-bc2a-a58260858b21")
 	)
-	(label "M1_PWR_LED_Cathode"
-		(at 91.44 55.88 270)
+	(label "Motor1PowerOut"
+		(at 71.12 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.508 0.508)
+				(size 0.762 0.762)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "230887f5-3ad6-4c5c-9573-2cf460ebeb1a")
+		(uuid "49377676-7d9a-4ab9-a4aa-713cc3e22705")
 	)
-	(label "M2_PWR_LED_Cathode"
-		(at 91.44 102.87 270)
+	(label "Motor3PowerOut"
+		(at 71.12 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.508 0.508)
+				(size 0.762 0.762)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "85dda840-5acb-4c9e-a45d-3edaa5436411")
+		(uuid "8859e5d0-bcb1-47ba-8632-45eb5e1a8292")
 	)
 	(label "M3_Fault_LED_Cathode"
 		(at 78.74 151.13 270)
@@ -1371,6 +1233,17 @@
 		)
 		(uuid "9c169e70-469f-4540-9b11-9c5184f66a54")
 	)
+	(label "Motor2PowerOut"
+		(at 71.12 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c555006-5e4f-4702-86b8-209d82f94fd0")
+	)
 	(label "M1_Fault_LED_Cathode"
 		(at 78.74 55.88 270)
 		(fields_autoplaced yes)
@@ -1382,17 +1255,6 @@
 		)
 		(uuid "c5e146e5-182d-4431-9134-f071cf2c99f5")
 	)
-	(label "M3_PWR_LED_Cathode"
-		(at 91.44 151.13 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc1703a1-cb16-4866-b60c-8627f5b77ab2")
-	)
 	(symbol
 		(lib_id "basic:R")
 		(at 78.74 163.83 0)
@@ -1402,7 +1264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00a192c1-5750-4600-a3ca-7af255994edf")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 78.74 163.83 90)
 			(effects
 				(font
@@ -1455,7 +1317,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1669,76 +1531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15396aab-0139-43d6-a4e9-371a559f9f80")
-		(property "Reference" "D5"
-			(at 95.25 52.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.25 54.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75000/4489898"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
-			(at 91.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14bd7586-32ac-4b75-9eb7-081aca9fb6c9")
-		)
-		(pin "2"
-			(uuid "b93c5f39-ebe2-402b-91f9-4c671a98b300")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "basic:R")
 		(at 78.74 68.58 0)
 		(unit 1)
@@ -1816,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe903ae-9b50-4e60-b563-5f0cc9d06752")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -1866,145 +1658,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2011b0b5-e9f9-4a12-8974-817de1d881e8")
-		(property "Reference" "D7"
-			(at 95.25 99.3774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.25 101.9174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 91.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75000/4489898"
-			(at 91.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
-			(at 91.44 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "574e1063-b75d-4465-8842-ca0822381e5c")
-		)
-		(pin "2"
-			(uuid "5067e9c4-1e51-43ce-a607-ac46625ad8d4")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "basic:R")
-		(at 91.44 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d60a25a-e6a6-4003-8024-8a9f6e96b029")
-		(property "Reference" "R9"
-			(at 91.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 85.598 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 89.662 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 91.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36838066-a2df-477b-ae63-14eb53dbb8e9")
-		)
-		(pin "2"
-			(uuid "d635a0e6-9ac2-4362-bc3b-f71898a85d6e")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "R9")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2090,7 +1744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36caa3ba-33d7-43d9-8000-66659b05760a")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 82.55 99.3774 90)
 			(effects
 				(font
@@ -2144,277 +1798,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "507e2d00-5bb3-4027-a630-b45ca965bbb0")
-		(property "Reference" "#PWR054"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97d1868b-d438-478d-b740-1710cd3d2fe7")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d507bd8-4de7-4f47-9d2d-04048e16e2ad")
-		(property "Reference" "D9"
-			(at 95.25 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.25 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060GS75000/4489898"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c08d6af5-4974-4c01-8bf8-d1f99de6730d")
-		)
-		(pin "2"
-			(uuid "c572d72e-9717-41f9-b07c-6e38931e79a5")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62d199ba-2b0e-4ce7-a63e-79307de00700")
-		(property "Reference" "#PWR050"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abcbf854-953f-44d6-968b-65b7ad9823eb")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "basic:R")
-		(at 91.44 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6578e906-3eb2-430a-9e68-7c31c2c81841")
-		(property "Reference" "R11"
-			(at 91.44 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 85.598 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 89.662 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cdc93d7-bd82-4b70-b79d-e83ba851d6e2")
-		)
-		(pin "2"
-			(uuid "ddb8d5b9-7001-4765-a337-fe688f2b1e37")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "R11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2430,7 +1814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b300b85-2a03-4dd5-b09e-4e253a1d258e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -2480,7 +1864,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2495,7 +1879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9021e464-fd82-4a9e-8ef8-e1a03923cd59")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 78.74 115.57 90)
 			(effects
 				(font
@@ -2548,7 +1932,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2564,7 +1948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9215e58a-9b0a-4d81-aab4-4320ed995b20")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 82.55 147.6374 90)
 			(effects
 				(font
@@ -2618,7 +2002,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2634,7 +2018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d66b82-7936-4490-82d7-ffb3b1afe8e8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -2685,7 +2069,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2901,7 +2285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a6a04b-16ba-47d9-8d28-058d32b3ffd4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -2951,7 +2335,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3091,74 +2475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "basic:R")
-		(at 91.44 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddf936e9-abac-47d8-ab0f-35150e3da2f6")
-		(property "Reference" "R13"
-			(at 91.44 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 85.598 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 89.662 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-071K5L/726689"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 91.44 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19056c23-dfc6-45f2-b0bf-c1ee92fff437")
-		)
-		(pin "2"
-			(uuid "6f4bc0a5-23e1-48fb-ab1c-3230f1cda93b")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 102.87 0)
 		(unit 1)
@@ -3168,7 +2484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46c6395-d931-4661-b1f2-bfe48fc64259")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -3219,7 +2535,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3293,72 +2609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f58dee-097d-4a44-95e5-fb731fc09bdb")
-		(property "Reference" "#PWR046"
-			(at 91.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41749e77-15ec-477b-bd82-a097c9897022")
-		)
-		(instances
-			(project "MainBoardv2"
-				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 101.6 39.37 0)
 		(unit 1)
@@ -3368,7 +2618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c98486-06df-40c4-b502-a0c92fb671ee")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -3418,7 +2668,7 @@
 		(instances
 			(project "MainBoardv2"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72/0b6d272a-beab-45a0-995b-a46a98d72224"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

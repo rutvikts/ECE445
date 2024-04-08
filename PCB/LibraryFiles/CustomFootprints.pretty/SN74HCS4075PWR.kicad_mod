@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.5 0)
 		(layer "F.SilkS")
 		(uuid "0f305e58-1317-46b4-9aca-bded95b62a69")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "SO14_PW_TEX"
-		(at 0 0 0)
+		(at 0 3.5 0)
 		(layer "F.SilkS")
 		(uuid "2268e6a8-e46f-41ce-88d7-e2a912d877c0")
 		(effects
@@ -864,28 +864,6 @@
 			)
 		)
 	)
-	(fp_text user "0.056in/1.41mm"
-		(at -2.95275 4.9657 0)
-		(layer "Cmts.User")
-		(uuid "52ffce30-ee84-4704-aaf7-ab54efc8ed71")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0.026in/0.65mm"
-		(at -6.00075 -1.624965 0)
-		(layer "Cmts.User")
-		(uuid "5f6d418e-dae0-49dc-89e1-b7538d06d1e7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Copyright 2016 Accelerated Designs. All rights reserved."
 		(at 0 0 0)
 		(layer "Cmts.User")
@@ -894,28 +872,6 @@
 			(font
 				(size 0.127 0.127)
 				(thickness 0.002)
-			)
-		)
-	)
-	(fp_text user "0.232in/5.906mm"
-		(at 0 -4.9657 0)
-		(layer "Cmts.User")
-		(uuid "e01b701f-8031-4c30-b834-7d6befa8efb1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0.014in/0.356mm"
-		(at 6.00075 -1.949958 0)
-		(layer "Cmts.User")
-		(uuid "e01e0a8f-30fa-4732-b40f-47b8c0180baf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
