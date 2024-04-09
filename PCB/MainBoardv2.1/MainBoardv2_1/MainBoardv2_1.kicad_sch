@@ -9230,7 +9230,7 @@
 	)
 	(text "4.5V to 28V, 6A Synchronous \nBuck Converter with ULQ-Mode\nEfficiency: 92.9%\nFrequency: 559.31kHz"
 		(exclude_from_sim no)
-		(at 97.282 190.246 0)
+		(at 97.536 189.992 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10119,7 +10119,7 @@
 			(uuid "5cf092fb-43e1-41a3-8e67-c032758c4462")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C6")
 					(unit 1)
@@ -10185,7 +10185,7 @@
 			(uuid "55ee93a3-30c5-493b-96fa-5cd6c080729a")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR029")
 					(unit 1)
@@ -10267,7 +10267,7 @@
 			(uuid "ad9b8c30-d2a3-4ec8-929f-cce981e73004")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J2")
 					(unit 1)
@@ -10337,7 +10337,7 @@
 			(uuid "a3b2af3e-dd0f-42c2-aa9c-6536f0e8a914")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C8")
 					(unit 1)
@@ -10405,7 +10405,7 @@
 			(uuid "efa94469-d0b2-4395-89aa-8bb36bb79eee")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R7")
 					(unit 1)
@@ -10613,7 +10613,7 @@
 			(uuid "8d92d7d3-b1b1-4149-b811-d2ae0ef204b8")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "U2")
 					(unit 1)
@@ -10692,7 +10692,7 @@
 			(uuid "7ee013d7-89dc-4535-a13d-15d627b51471")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J1")
 					(unit 1)
@@ -10759,7 +10759,7 @@
 			(uuid "375da13f-0a6a-42ae-ad7d-233da5151cb9")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP10")
 					(unit 1)
@@ -10826,7 +10826,7 @@
 			(uuid "e0a0f25f-c186-458b-b27b-7ef14ef9c8ef")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP2")
 					(unit 1)
@@ -10893,7 +10893,7 @@
 			(uuid "25224e5c-946b-4f40-b938-3ca81b150330")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR013")
 					(unit 1)
@@ -10963,7 +10963,7 @@
 			(uuid "61c583ba-c79f-497d-b719-b2585818642b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C7")
 					(unit 1)
@@ -11033,7 +11033,7 @@
 			(uuid "b477eddd-f3ee-4aea-acb7-0e56cd812dbb")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C3")
 					(unit 1)
@@ -11101,7 +11101,7 @@
 			(uuid "b5eea69e-b6e2-4c5f-ad78-7afcf66e203d")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Cboot1")
 					(unit 1)
@@ -11168,7 +11168,7 @@
 			(uuid "483ea6d4-0939-4e92-9511-8e8c88bec99b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR014")
 					(unit 1)
@@ -11235,7 +11235,7 @@
 			(uuid "d6180584-61d7-465e-83bd-9b7d37b54075")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP3")
 					(unit 1)
@@ -11302,7 +11302,7 @@
 			(uuid "841f5c46-aa50-46f4-bff4-29187ebfaf21")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR015")
 					(unit 1)
@@ -11366,7 +11366,7 @@
 			)
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "H4")
 					(unit 1)
@@ -11433,7 +11433,7 @@
 			(uuid "93fc2363-36c0-4ca3-b49d-5aba37175270")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J5")
 					(unit 1)
@@ -11500,7 +11500,7 @@
 			(uuid "0ba458f1-77bb-44d3-9f9f-2a443eaca127")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR028")
 					(unit 1)
@@ -11567,7 +11567,7 @@
 			(uuid "cd4d8999-10ce-46af-9f6c-f3db6ca72bee")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR03")
 					(unit 1)
@@ -11637,7 +11637,7 @@
 			(uuid "20923f94-0e50-4871-a473-2ebe53d7a894")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "D1")
 					(unit 1)
@@ -11703,7 +11703,7 @@
 			(uuid "e6f7f5ad-4014-4e53-bfbd-b70ec187969e")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP7")
 					(unit 1)
@@ -11773,7 +11773,7 @@
 			(uuid "27715059-41c2-4926-afb8-c0c8764b1ef9")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Y1")
 					(unit 1)
@@ -11841,7 +11841,7 @@
 			(uuid "d753beff-ca75-405d-ba49-e707badbbb74")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R5")
 					(unit 1)
@@ -11911,7 +11911,7 @@
 			(uuid "5ae2848e-24a4-42a4-80ee-e1363fd015f3")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C10")
 					(unit 1)
@@ -11978,7 +11978,7 @@
 			(uuid "a20b5bd6-996c-4f77-82d3-b51db2f41ed5")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR023")
 					(unit 1)
@@ -12044,7 +12044,7 @@
 			(uuid "71670395-3ff8-4787-bc26-e3c01839071a")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#FLG04")
 					(unit 1)
@@ -12112,7 +12112,7 @@
 			(uuid "25d5bf50-43c7-4fc6-bfbe-d56b20696975")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Rfbb1")
 					(unit 1)
@@ -12179,7 +12179,7 @@
 			(uuid "4d5b6398-d455-4e5a-8510-664070150831")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP4")
 					(unit 1)
@@ -12245,7 +12245,7 @@
 			(uuid "0ef00803-0b9b-470d-afb5-fa412578bcec")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR04")
 					(unit 1)
@@ -12311,7 +12311,7 @@
 			(uuid "27b5f622-ac92-490e-b475-961266c47363")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR06")
 					(unit 1)
@@ -12378,7 +12378,7 @@
 			(uuid "6c069819-9050-4fd4-a607-6a24a33a94a5")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR010")
 					(unit 1)
@@ -12445,7 +12445,7 @@
 			(uuid "65f2e6a2-f5a6-48e4-859d-f1d7f6f3297f")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR025")
 					(unit 1)
@@ -12518,7 +12518,7 @@
 			(uuid "7ba3398d-9cd7-43b4-b14e-57846e295621")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J9")
 					(unit 1)
@@ -12591,7 +12591,7 @@
 			(uuid "7cbb40d9-758a-4891-8753-f12779fd2175")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J8")
 					(unit 1)
@@ -12659,7 +12659,7 @@
 			(uuid "c94b094d-7cb5-42ad-a739-1da7a7ecabb8")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R1")
 					(unit 1)
@@ -12723,7 +12723,7 @@
 			)
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "H2")
 					(unit 1)
@@ -12789,7 +12789,7 @@
 			(uuid "9d49cfbb-1a77-4123-a378-96334dad4203")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR08")
 					(unit 1)
@@ -12855,7 +12855,7 @@
 			(uuid "04c67df2-7591-42f1-86a4-4a133434a3b9")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP15")
 					(unit 1)
@@ -12921,7 +12921,7 @@
 			(uuid "e93d71ea-cedc-49c3-a550-8c4dece0bc44")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#FLG02")
 					(unit 1)
@@ -12987,7 +12987,7 @@
 			(uuid "6aaf69a3-3cbd-476b-b338-65f5fc46de9e")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR021")
 					(unit 1)
@@ -13055,7 +13055,7 @@
 			(uuid "a1017f42-a747-4233-bc49-b42d9dc041f0")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Rff1")
 					(unit 1)
@@ -13121,7 +13121,7 @@
 			(uuid "b621c4ad-af39-4b9f-a23d-68149b18344d")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR019")
 					(unit 1)
@@ -13188,7 +13188,7 @@
 			(uuid "ef2a3909-bd42-41cc-8fe0-a2d096db02ff")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR016")
 					(unit 1)
@@ -13255,7 +13255,7 @@
 			(uuid "0dfee8b1-845e-47f3-bf3b-4402a949bb5f")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR033")
 					(unit 1)
@@ -13323,7 +13323,7 @@
 			(uuid "20899b21-f9e0-412f-bcc6-d27db473f295")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "FB1")
 					(unit 1)
@@ -13389,7 +13389,7 @@
 			(uuid "4de4d073-6b81-4a9e-a904-4c51482d4f1e")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR07")
 					(unit 1)
@@ -13455,7 +13455,7 @@
 			(uuid "2b354779-37ba-48ff-a050-15ba13c97df5")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR01")
 					(unit 1)
@@ -13535,7 +13535,7 @@
 			(uuid "7819bbe5-fda5-45d2-9c92-c287613552fd")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J3")
 					(unit 1)
@@ -13614,7 +13614,7 @@
 			(uuid "15afd5c9-dda6-4741-aeca-fd0e354e3ac9")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "SW2")
 					(unit 1)
@@ -13682,7 +13682,7 @@
 			(uuid "9e4be32f-3030-48f6-923a-2f761894ce61")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R4")
 					(unit 1)
@@ -13748,7 +13748,7 @@
 			(uuid "355982f5-bc40-4fdb-8aa5-7622807ecba1")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR031")
 					(unit 1)
@@ -13814,7 +13814,7 @@
 			(uuid "a3948beb-b934-4ceb-ad55-93a276f567ef")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP1")
 					(unit 1)
@@ -13878,7 +13878,7 @@
 			)
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "H1")
 					(unit 1)
@@ -13947,7 +13947,7 @@
 			(uuid "d591e27a-541f-461b-834f-8f48d09d5909")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C13")
 					(unit 1)
@@ -14017,7 +14017,7 @@
 			(uuid "d92c6b70-02e9-413e-8512-827dfcdf3f25")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "SW1")
 					(unit 1)
@@ -14085,7 +14085,7 @@
 			(uuid "c964f9ca-3af1-4952-a98a-8817f8daaef2")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR027")
 					(unit 1)
@@ -14155,7 +14155,7 @@
 			(uuid "ef12bafc-9d38-477b-a7f9-bbe0d072e2d3")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "D3")
 					(unit 1)
@@ -14224,7 +14224,7 @@
 			(uuid "af6ea6ea-34ed-4dd5-bd43-6bd6ba57ffae")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Cff1")
 					(unit 1)
@@ -14292,7 +14292,7 @@
 			(uuid "60a093eb-9f9e-457c-a98e-7b1536d9862e")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "JP1")
 					(unit 1)
@@ -14358,7 +14358,7 @@
 			(uuid "380768b8-104a-4d5c-863d-ad50cdef413c")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR05")
 					(unit 1)
@@ -14430,7 +14430,7 @@
 			(uuid "d1c7d0c5-c4e5-41c4-8ac5-214fced11933")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "U1")
 					(unit 1)
@@ -14496,7 +14496,7 @@
 			(uuid "5164a717-d873-4c3d-a8b1-8bc9053127b2")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR018")
 					(unit 1)
@@ -14566,7 +14566,7 @@
 			(uuid "d4a3c6b3-a50f-4062-a119-1bd1865aa429")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C9")
 					(unit 1)
@@ -14634,7 +14634,7 @@
 			(uuid "5c52506c-0455-4960-9475-f007c4c95192")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Rfbt1")
 					(unit 1)
@@ -14701,7 +14701,7 @@
 			(uuid "1d23e106-4b4a-4496-9949-6655a30eb059")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP9")
 					(unit 1)
@@ -14769,7 +14769,7 @@
 			(uuid "e56a5965-e89e-449d-9132-5a00da396e74")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Rpg1")
 					(unit 1)
@@ -14836,7 +14836,7 @@
 			(uuid "31fe66f6-99f5-49e9-9708-afe344238fb9")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP6")
 					(unit 1)
@@ -14902,7 +14902,7 @@
 			(uuid "d7eaf068-42af-47f9-ba91-40aecc4efe77")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR09")
 					(unit 1)
@@ -14969,7 +14969,7 @@
 			(uuid "d3245277-a25a-4686-93f0-0ba9ff3f7456")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR011")
 					(unit 1)
@@ -15037,7 +15037,7 @@
 			(uuid "4530b70f-3db9-47e0-8b2f-6cba67b2d28a")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "L1")
 					(unit 1)
@@ -15103,7 +15103,7 @@
 			(uuid "c805b100-d3d0-4980-b965-f3868a2dfb54")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR012")
 					(unit 1)
@@ -15195,7 +15195,7 @@
 			(uuid "b30ef5ee-6320-4dc7-95b2-2b45f1787e89")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "U3")
 					(unit 1)
@@ -15261,7 +15261,7 @@
 			(uuid "04c8e781-7a39-4beb-a7b3-bf7fcf79c425")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR030")
 					(unit 1)
@@ -15327,7 +15327,7 @@
 			(uuid "28d4f8f3-2026-4e96-b60d-b8bc89429dcf")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR024")
 					(unit 1)
@@ -15394,7 +15394,7 @@
 			(uuid "e8e43513-8c23-4e35-9727-fcf8fef77f29")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR032")
 					(unit 1)
@@ -15467,7 +15467,7 @@
 			(uuid "6222fff8-7018-454b-b29d-55b443d12619")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J6")
 					(unit 1)
@@ -15533,7 +15533,7 @@
 			(uuid "6e7d107a-0d2a-4b7f-9709-00d77dc9e0db")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR017")
 					(unit 1)
@@ -15603,7 +15603,7 @@
 			(uuid "a2bae66f-9dfd-4985-9673-f73303e01836")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C1")
 					(unit 1)
@@ -15669,7 +15669,7 @@
 			(uuid "caeae643-dfda-4485-a9ff-fe506eca0fc4")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#FLG01")
 					(unit 1)
@@ -15735,7 +15735,7 @@
 			(uuid "e38db4c2-835a-42db-a122-3a913eae7f65")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP8")
 					(unit 1)
@@ -15805,7 +15805,7 @@
 			(uuid "7710457b-6d1d-471f-a4c2-9a07236e805d")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C2")
 					(unit 1)
@@ -15875,7 +15875,7 @@
 			(uuid "d694e6fe-743c-4b22-9dba-46ed0239699b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C11")
 					(unit 1)
@@ -15942,7 +15942,7 @@
 			(uuid "3c755fc7-7cf4-4cbb-a6e8-9be40bc70add")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#FLG03")
 					(unit 1)
@@ -16012,7 +16012,7 @@
 			(uuid "5bb7fae2-aa5d-45be-8eaa-dfa050b08cc4")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C5")
 					(unit 1)
@@ -16080,7 +16080,7 @@
 			(uuid "03e54719-63c5-4fec-ba45-fa9cf7c0ad5b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "JP2")
 					(unit 1)
@@ -16150,7 +16150,7 @@
 			(uuid "e3d2150f-2e5e-415e-a94b-ee4d7695bb1d")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C4")
 					(unit 1)
@@ -16219,7 +16219,7 @@
 			(uuid "02bd946a-0eb2-460d-bbd4-630741ca50ce")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Cout1")
 					(unit 1)
@@ -16285,7 +16285,7 @@
 			(uuid "25e11640-ef00-45ba-ab9c-d10100564028")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR022")
 					(unit 1)
@@ -16362,7 +16362,7 @@
 			(uuid "556ae853-ed74-4529-bec0-590122f74e94")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J4")
 					(unit 1)
@@ -16430,7 +16430,7 @@
 			(uuid "007c446d-91c3-4e44-857b-099eabf6fe7b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R3")
 					(unit 1)
@@ -16499,7 +16499,7 @@
 			(uuid "4b6e7796-deb8-475e-8048-d2ab31d24ab2")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Cin1")
 					(unit 1)
@@ -16563,7 +16563,7 @@
 			)
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "H3")
 					(unit 1)
@@ -16633,7 +16633,7 @@
 			(uuid "5b99f771-610f-4665-ad4d-c8e913c50265")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "D2")
 					(unit 1)
@@ -16699,7 +16699,7 @@
 			(uuid "42e558b3-697d-45b3-b937-f8ba978059b4")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR026")
 					(unit 1)
@@ -16765,7 +16765,7 @@
 			(uuid "68dcfd56-2f08-4192-b926-99a3ab735449")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR02")
 					(unit 1)
@@ -16831,7 +16831,7 @@
 			(uuid "50832282-9498-4087-96f0-2551c6e6d68b")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR020")
 					(unit 1)
@@ -16898,7 +16898,7 @@
 			(uuid "52be7b4b-bd18-4f77-b8ff-2746ffc0bccf")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "TP5")
 					(unit 1)
@@ -16965,7 +16965,7 @@
 			(uuid "981576c6-c887-486a-a0eb-3b6d48230dc8")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "#PWR034")
 					(unit 1)
@@ -17034,7 +17034,7 @@
 			(uuid "98ac9de2-4cd5-418f-9508-110d618108bb")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "C12")
 					(unit 1)
@@ -17102,7 +17102,7 @@
 			(uuid "fb11472c-4f3c-4e08-bdad-483d0957df3a")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R2")
 					(unit 1)
@@ -17170,7 +17170,7 @@
 			(uuid "f806d276-fb85-4cc4-a4b9-c4a17abb2f06")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "R6")
 					(unit 1)
@@ -17239,7 +17239,7 @@
 			(uuid "4b6e7796-deb8-475e-8048-d2ab31d24ab3")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "Cinx1")
 					(unit 1)
@@ -17306,7 +17306,7 @@
 			(uuid "5792c411-ed85-408a-8b2f-03e9ff11ce76")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(reference "J7")
 					(unit 1)
@@ -17345,7 +17345,7 @@
 			)
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(page "3")
 				)
@@ -17393,7 +17393,7 @@
 			(uuid "0cf2b1b5-5a85-44ef-9074-afe58c475705")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(page "4")
 				)
@@ -17520,7 +17520,7 @@
 			(uuid "d07cd609-691b-4740-ae8b-6a8991b90c3e")
 		)
 		(instances
-			(project "MainBoardv2"
+			(project "MainBoardv2_1"
 				(path "/d9c43b87-8960-41bd-bfcc-9c305bab2f72"
 					(page "2")
 				)
