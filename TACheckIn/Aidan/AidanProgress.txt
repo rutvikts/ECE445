@@ -25,4 +25,7 @@ Ordered necessary parts for our project.
 
 3/28/2024: Updated Bumper Cad Drawing
 
+4/8/2024: Got limit switches working and showing proper voltage when pressed thanks to https://www.ebay.com/itm/333999755279
+
+
 
