@@ -1,3 +1,14 @@
+Week of 04/08:
+- Mounted ESP boards with machine shop
+- Fixed limit switch issue
+- Working on PCB v2
+
+Week of 04/01:
+- Worked on PCB v2
+- Ordered parts for PCB v2
+- Worked on OWB triangulation
+- Worked on chassis build with machine shop, most major items have been mounted.
+
 Week of 03/25:
 - Working on OWB Triangulation with Law of Cosines
 - Working on PCB v2 Testing
