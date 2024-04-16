@@ -49,3 +49,7 @@ The center of the child and the center of the screen will be compared to determi
 4-April  Revised Buck Converter Concept  Worked with Rutvik to revise buck converters. Concept: Have one 5V@4.5A buck converter with a current clamp to provide 5V@4A and 5V@2A. Step this down using an LDO to 3.3V@1.2A. Possible ways to step down current could be to use some sort of ICs or a transformer. Will need to conduct further research since most ICs are maxed at 2A. Possibly look into using a combination of these ICs.
 7-April  Designed opamp circuit  Used an LM358DR to design an omamp circuit that amplifies an input voltage by a factor of 1000. Will test tomorrow on breadboard.
 8-April  Limit switch circuit  Tested low voltage to high voltage opamp ICs. Multiple circuit configurations and different ICs were used, but didn't work. After working with Aidan and Rutvik, we developed a solution since the limit switch has a built in BJT.
+13-April  Setting up RaspberryPi  Setting up Model 3B.
+14-April  Setting up RaspberryPi  Setting up another Model 3B.
+15-April  Setting up RaspberryPi  Model 3B didn't work, trying to get model 3A+ to work. Both Model 3Bs have issues with micro sd hat.
+16-April  Setting up RaspberryPi  Installing libraries and OpenCV code on raspberry pi.
