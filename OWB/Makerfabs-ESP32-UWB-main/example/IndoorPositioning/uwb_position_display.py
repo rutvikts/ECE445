@@ -5,13 +5,16 @@ import socket
 import json
 
 hostname = socket.gethostname()
-UDP_IP = socket.gethostbyname(hostname)
-print("***Local ip:" + str(UDP_IP) + "***")
-UDP_PORT = 80
+# UDP_IP = socket.gethostbyname(hostname)
+UDP_IP = '192.0.0.2'
+print("*** Local ip: " + str(UDP_IP) + " ***")
+# UDP_PORT = 80
+UDP_PORT = 49152
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind((UDP_IP, UDP_PORT))
-sock.listen(1)  # 接收的连接数
+sock.listen(1)  # 接收的连接数 = Number of connections received
 data, addr = sock.accept()
+print("Socket Accepted!")
 
 distance_a1_a2 = 3.0
 meter2pixel = 100

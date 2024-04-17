@@ -1,0 +1,12 @@
+name: ECE445_IndoorPositioning_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - time
+  - turtle
+  - cmath
+  - socket
+  - json
+  - tkinter
