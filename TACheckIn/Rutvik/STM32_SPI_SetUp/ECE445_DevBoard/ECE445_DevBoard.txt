@@ -1,0 +1,74 @@
+Configuration	ECE445_DevBoard
+STM32CubeMX 	6.11.0
+Date	04/16/2024
+MCU	STM32F103R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM2	Encoder Mode	TIM2_CH1	PA0-WKUP
+TIM2	Encoder Mode	TIM2_CH2	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA0-WKUP	TIM2_CH1	TIM2_CH1_ME1_ChA
+15	PA1	TIM2_CH2	TIM2_CH2_ME1_ChB
+16	PA2	GPIO_Output	SPI1_NSS_ESP1
+17	PA3	GPIO_Output	SPI1_NSS_ESP2
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM2	Encoder Mode	TIM2_CH1	PA0-WKUP
+TIM2	Encoder Mode	TIM2_CH2	PA1
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA0-WKUP	TIM2_CH1	TIM2_CH1_ME1_ChA
+15	PA1	TIM2_CH2	TIM2_CH2_ME1_ChB
+16	PA2	GPIO_Output	SPI1_NSS_ESP1
+17	PA3	GPIO_Output	SPI1_NSS_ESP2
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ECE445_DevBoard
+Project Folder : /Users/rutviksayankar/Repos/ECE445_SP24/TACheckIn/Rutvik/STM32_SPI_SetUp/ECE445_DevBoard
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.5
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
