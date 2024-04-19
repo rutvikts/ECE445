@@ -1,3 +1,9 @@
+Week of 04/15
+- PCB assembly of MainBoard v2.0
+- Organized wiring
+- Subsystem integration 
+- Robot assembly
+
 Week of 04/08:
 - Mounted ESP boards with machine shop
 - Fixed limit switch issue
