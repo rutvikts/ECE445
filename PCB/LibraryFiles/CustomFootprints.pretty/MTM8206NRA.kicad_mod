@@ -1,0 +1,191 @@
+(footprint "MTM8206NRA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16.5 12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df01e68a-d333-4859-a5de-47713502be5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MTM8206NRA"
+		(at -16.5 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a587797c-6d80-4356-819e-4211f0025f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -16.5 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc8d01a3-eab7-4443-ac09-12f4f35f289a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -16.5 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "145afa1a-308f-4fe9-869d-cfcf464cdf78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -16.5 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e752aa1-d8e3-4770-bd3b-8adb8e170a05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -18.5 -1.801)
+		(end 2 11.199)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c2027fbd-870a-4dda-9922-7fde9744c8d2")
+	)
+	(fp_rect
+		(start -29.5 -2)
+		(end 2.5 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f87cbda3-d5d2-4566-bf5a-c867c156be2a")
+	)
+	(fp_rect
+		(start -18.5 -1.801)
+		(end 2 11.199)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0feac36f-9419-4066-8396-ecd3ecc2b6b6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -16.5 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "339751d6-9b0c-45b0-946c-fc292f6ad1d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8fee294-c229-4811-a3f8-97540fcfe6a6")
+	)
+	(pad "2" thru_hole oval
+		(at 0 4.699)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "872e4027-eeb5-4a57-86df-a03ec86fc611")
+	)
+	(pad "3" thru_hole oval
+		(at 0 9.398)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "579c2943-45b3-4694-9461-ada304c636ad")
+	)
+	(pad "4" thru_hole oval
+		(at -3.81 0)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7333458-6c37-4be1-809b-499c84f6c7b9")
+	)
+	(pad "5" thru_hole oval
+		(at -3.81 4.699)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "184cff7d-2467-4143-99b2-a88de19da7e1")
+	)
+	(pad "6" thru_hole oval
+		(at -3.81 9.398)
+		(size 2.54 1.778)
+		(drill oval 1.524 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c20d715f-2106-404c-a6e1-3acfcffe3e3b")
+	)
+	(pad "7" thru_hole oval
+		(at -16.51 2.159)
+		(size 1.524 2.286)
+		(drill oval 0.762 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1250c3b1-22e4-4d3a-8443-2419fe15e437")
+	)
+	(pad "8" thru_hole oval
+		(at -16.51 7.239)
+		(size 1.524 2.286)
+		(drill oval 0.762 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ce6af12-8356-4832-b39a-b82f980db9e8")
+	)
+	(group ""
+		(uuid "6027c75b-282d-41bb-82d4-3351b1fd0e46")
+		(members "184cff7d-2467-4143-99b2-a88de19da7e1" "579c2943-45b3-4694-9461-ada304c636ad"
+			"872e4027-eeb5-4a57-86df-a03ec86fc611" "a8fee294-c229-4811-a3f8-97540fcfe6a6"
+			"be31c1c4-3272-4074-98cc-6a6361566dce" "c20d715f-2106-404c-a6e1-3acfcffe3e3b"
+			"f7333458-6c37-4be1-809b-499c84f6c7b9"
+		)
+	)
+	(group ""
+		(uuid "be31c1c4-3272-4074-98cc-6a6361566dce")
+		(members "1250c3b1-22e4-4d3a-8443-2419fe15e437" "6ce6af12-8356-4832-b39a-b82f980db9e8")
+	)
+)
