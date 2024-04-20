@@ -16,9 +16,12 @@ For ESP32 UWB or ESP32 UWB Pro
 #define PIN_RST 27
 #define PIN_IRQ 34
 
-const char *ssid = "Makerfabs";
-const char *password = "20160704";
-const char *host = "192.168.1.103";
+const char *ssid = "Rutvik iPhone";
+const char *password = "bananaman123";
+// const char *host = "192.168.1.103";
+// const char *host = "10.194.12.226";
+// const char *host = "127.0.0.1";
+const char *host = "192.0.0.2";
 WiFiClient client;
 
 struct MyLink *uwb_data;
@@ -38,17 +41,20 @@ void setup()
         delay(500);
         Serial.print(".");
     }
-    Serial.println("Connected");
-    Serial.print("IP Address:");
+    Serial.println("Connected!");
+    Serial.print("IP Address: ");
     Serial.println(WiFi.localIP());
 
-    if (client.connect(host, 80))
+    if (client.connect(host, 49152))
     {
-        Serial.println("Success");
+        Serial.println("Success!");
         client.print(String("GET /") + " HTTP/1.1\r\n" +
                      "Host: " + host + "\r\n" +
                      "Connection: close\r\n" +
                      "\r\n");
+    }
+    else {
+      Serial.println("Failed host connection");
     }
 
     delay(1000);
