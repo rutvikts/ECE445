@@ -39,13 +39,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   0000e5a1  00000000  00000000  0002bddc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000894c1  00000000  00000000  0003a37d  2**0
+ 18 .debug_str    000894d0  00000000  00000000  0003a37d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  000c383e  2**0
+ 19 .comment      00000043  00000000  00000000  000c384d  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003a34  00000000  00000000  000c3884  2**2
+ 20 .debug_frame  00003a34  00000000  00000000  000c3890  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000076  00000000  00000000  000c72b8  2**0
+ 21 .debug_line_str 00000085  00000000  00000000  000c72c4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -121,21 +121,20 @@ int main(void)
   MX_USB_PCD_Init();
  8000170:	f000 fa58 	bl	8000624 <MX_USB_PCD_Init>
   /* USER CODE BEGIN 2 */
-  TIM1->CCR1 = 75;
+  TIM1->CCR1 = 25;
  8000174:	4b07      	ldr	r3, [pc, #28]	@ (8000194 <main+0x48>)
- 8000176:	224b      	movs	r2, #75	@ 0x4b
+ 8000176:	2219      	movs	r2, #25
  8000178:	635a      	str	r2, [r3, #52]	@ 0x34
-  TIM1->CCR2 = 75;
+  TIM1->CCR2 = 25;
  800017a:	4b06      	ldr	r3, [pc, #24]	@ (8000194 <main+0x48>)
- 800017c:	224b      	movs	r2, #75	@ 0x4b
+ 800017c:	2219      	movs	r2, #25
  800017e:	639a      	str	r2, [r3, #56]	@ 0x38
-  TIM1->CCR3 = 75;
+  TIM1->CCR3 = 25;
  8000180:	4b04      	ldr	r3, [pc, #16]	@ (8000194 <main+0x48>)
- 8000182:	224b      	movs	r2, #75	@ 0x4b
+ 8000182:	2219      	movs	r2, #25
  8000184:	63da      	str	r2, [r3, #60]	@ 0x3c
-  //HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
- 8000186:	2104      	movs	r1, #4
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+ 8000186:	2100      	movs	r1, #0
  8000188:	4803      	ldr	r0, [pc, #12]	@ (8000198 <main+0x4c>)
  800018a:	f001 ff15 	bl	8001fb8 <HAL_TIM_PWM_Start>
 

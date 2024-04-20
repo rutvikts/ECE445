@@ -107,11 +107,11 @@ int main(void)
   MX_TIM4_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
-  TIM1->CCR1 = 75;
-  TIM1->CCR2 = 75;
-  TIM1->CCR3 = 75;
-  //HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+  TIM1->CCR1 = 25;
+  TIM1->CCR2 = 25;
+  TIM1->CCR3 = 25;
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+//  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
   //HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
 
   /* USER CODE END 2 */
