@@ -22,6 +22,7 @@
 #include "tim.h"
 #include "usb_device.h"
 #include "gpio.h"
+#include <stdlib.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -64,9 +65,50 @@ uint32_t MAP(uint32_t au32_IN, uint32_t au32_INmin, uint32_t au32_INmax, uint32_
     return ((((au32_IN - au32_INmin)*(au32_OUTmax - au32_OUTmin))/(au32_INmax - au32_INmin)) + au32_OUTmin);
 }
 
-int mapChannel(int speed, int minLimit, int maxLimit, int defaultValue){
-	return MAP(speed, -10, 10, minLimit, maxLimit);
+int mapChannel(int speed, int minLimit, int maxLimit){
+	return MAP(speed, -20, 20, minLimit, maxLimit);
 }
+
+typedef struct{
+	int16_t velocity;
+	int64_t position;
+	int64_t rpm;
+	uint32_t last_counter_value;
+}encoder_instance;
+
+void update_encoder(encoder_instance *encoder_value, TIM_HandleTypeDef *htim){
+	uint32_t temp_counter = __HAL_TIM_GET_COUNTER(&htim2);
+	static uint8_t first_time = 0;
+	if(!first_time){
+		encoder_value ->velocity = 0;
+		first_time = 1;
+	}
+	else{
+		if(temp_counter == encoder_value ->last_counter_value){
+			encoder_value ->velocity = 0;
+		}
+		else if(temp_counter > encoder_value ->last_counter_value){
+			if (__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim2)){
+				encoder_value ->velocity = -encoder_value ->last_counter_value - (__HAL_TIM_GET_AUTORELOAD(&htim2)-temp_counter);
+			}
+			else{
+				encoder_value ->velocity = temp_counter - encoder_value ->last_counter_value;
+			}
+		}
+		else{
+			if (__HAL_TIM_IS_TIM_COUNTING_DOWN(&htim2)){
+				encoder_value ->velocity = temp_counter - encoder_value ->last_counter_value;
+			}
+			else{
+				encoder_value ->velocity = temp_counter + (__HAL_TIM_GET_AUTORELOAD(&htim2) - encoder_value ->last_counter_value);
+			}
+		}
+	}
+	encoder_value ->position += encoder_value ->velocity;
+	encoder_value ->last_counter_value = temp_counter;
+}
+
+
 
 uint32_t counter1 = 0;
 int16_t count1 = 0;
@@ -74,6 +116,15 @@ uint32_t counter2 = 0;
 int16_t count2 = 0;
 uint32_t counter3 = 0;
 int16_t count3 = 0;
+
+int16_t encoder_velocity;
+int64_t encoder_position;
+int64_t encoder_rpm = 0;
+
+encoder_instance enc_instance_mot1 = {0,0,0,0};
+encoder_instance enc_instance_mot2 = {0,0,0,0};
+encoder_instance enc_instance_mot3 = {0,0,0,0};
+
 
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
 	counter1 = __HAL_TIM_GET_COUNTER(&htim2);
@@ -84,7 +135,48 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
 
 	counter3 = __HAL_TIM_GET_COUNTER(&htim4);
 	count3 = (int16_t) counter3;
+
+	update_encoder(&enc_instance_mot1, &htim2);
+
+	encoder_position = enc_instance_mot1.position;
+	encoder_velocity = enc_instance_mot1.velocity;
 }
+
+void measureRPM(){
+	encoder_rpm = 0;
+	int16_t tempCount1 = count1;
+	int16_t tempCount2 = count2;
+	int16_t tempCount3 = count3;
+	HAL_Delay(1000);
+
+
+
+	int64_t tempDiff1 = abs(count1 - tempCount1) / 28;
+	int64_t tempDiff2 = abs(count2 - tempCount2) / 28;
+	int64_t tempDiff3 = abs(count3 - tempCount3) / 28;
+
+	enc_instance_mot1.rpm = tempDiff1;
+	encoder_rpm = enc_instance_mot1.rpm;
+
+	enc_instance_mot2.rpm = tempDiff2;
+	encoder_rpm = enc_instance_mot2.rpm;
+
+	enc_instance_mot3.rpm = tempDiff3;
+	encoder_rpm = enc_instance_mot3.rpm;
+}
+
+int M1_Speed = -8;
+int M2_Speed = -7;
+int M3_Speed = -8;
+
+// Fast Forward = 20 for all motors ~ 28 RPM unloaded
+// Fast Reverse = -20 for all motors ~ 28 RPM unloaded
+// Neutral = 0 for all
+// Medium Forward = 13, 12, 12 ~ 14RPM unloaded
+// Slow Forward = 10, 7, 7 ~ 7 RPM unloaded
+// Medium Reverse = -13, -12, -12 ~ 14RPM unloaded
+// Slow Reverse = -8, -7, -8 ~ 7RPM unloaded
+
 
 /* USER CODE END 0 */
 
@@ -132,10 +224,6 @@ int main(void)
 	HAL_TIM_Encoder_Start_IT(&htim3, TIM_CHANNEL_ALL);
 	HAL_TIM_Encoder_Start_IT(&htim4, TIM_CHANNEL_ALL);
 
-	int M1_Speed = 0;
-	int M2_Speed = 0;
-	int M3_Speed = 0;
-
 
 
   /* USER CODE END 2 */
@@ -149,26 +237,30 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 	// Setting up USB message and sending through serial.
-	uint8_t buffer[] = "Hello World!!!!!\r\n";
-	CDC_Transmit_FS(buffer, sizeof(buffer));
-	HAL_Delay(1000);
+//	uint8_t buffer[] = "Hello World!!!!!\r\n";
+//	CDC_Transmit_FS(buffer, sizeof(buffer));
+//	HAL_Delay(1000);
 //
 	// Mapping Range of -10 to 10 to the duty cycle of the motors.
 
-	htim1.Instance->CCR1 = mapChannel(M1_Speed, 1400, 1620, 1510); // current, minimum, maximum, default
-	htim1.Instance->CCR2 = mapChannel(M2_Speed, 1380, 1630, 1470);
-	htim1.Instance->CCR3 = mapChannel(M3_Speed, 1400, 1630, 1510);
-	HAL_Delay(1000);
+	htim1.Instance->CCR1 = mapChannel(M1_Speed, 1300, 1684); // current, minimum, maximum, default
+	htim1.Instance->CCR2 = mapChannel(M2_Speed, 1320, 1681);
+	htim1.Instance->CCR3 = mapChannel(M3_Speed, 1323, 1712);
+//	HAL_Delay(10000);
 
-	M1_Speed += 1;
-	M2_Speed += 1;
-	M3_Speed += 1;
+//	M1_Speed += 1;
+//	M2_Speed += 1;
+//	M3_Speed += 1;
 
-	if (M1_Speed > 10) {
-		M1_Speed = -10;
-		M2_Speed = -10;
-		M3_Speed = -10;
-	}
+//	if (M1_Speed > 10) {
+//		M1_Speed = 0;
+//		HAL_Delay(10000);
+//		M1_Speed = -10;
+//		M2_Speed = -10;
+//		M3_Speed = -10;
+//	}
+
+	measureRPM();
 
 //	HAL_TIM_PeriodElapsedCallback(&htim2);
   }
