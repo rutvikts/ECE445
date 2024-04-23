@@ -66,7 +66,14 @@ static void MX_TIM4_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint32_t MAP(uint32_t au32_IN, uint32_t au32_INmin, uint32_t au32_INmax, uint32_t au32_OUTmin, uint32_t au32_OUTmax)
+{
+    return ((((au32_IN - au32_INmin)*(au32_OUTmax - au32_OUTmin))/(au32_INmax - au32_INmin)) + au32_OUTmin);
+}
 
+int mapChannel(int speed, int minLimit, int maxLimit, int defaultValue){
+	return MAP(speed, -10, 10, minLimit, maxLimit);
+}
 /* USER CODE END 0 */
 
 /**
@@ -105,11 +112,16 @@ int main(void)
   MX_TIM4_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1); // Setting up PWM Timer
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2); // Setting up PWM Timer
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3); // Setting up PWM Timer
 
-  float M1_Speed = 0;
-
+//  uint16_t M1_Speed = 1550;
+//  uint16_t M2_Speed = 1540;
+//  uint16_t M3_Speed = 1560;
+    int M1_Speed = -10;
+    int M2_Speed = -10;
+    int M3_Speed = -10;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -117,16 +129,24 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	htim1.Instance->CCR1 = M1_Speed;
 
-	M1_Speed += 0.1;
+    /* USER CODE BEGIN 3 */
+
+	htim1.Instance->CCR1 = mapChannel(M1_Speed, 1400, 1620, 1510); // current, minimum, maximum, default
+	htim1.Instance->CCR2 = mapChannel(M2_Speed, 1380, 1630, 1470);
+	htim1.Instance->CCR3 = mapChannel(M3_Speed, 1400, 1630, 1510);
+	HAL_Delay(1000);
+
+	M1_Speed += 1;
+	M2_Speed += 1;
+	M3_Speed += 1;
 
 	if (M1_Speed > 10) {
-	  M1_Speed = 0;
+		M1_Speed = -10;
+		M2_Speed = -10;
+		M3_Speed = -10;
 	}
 
-	HAL_Delay(1000);
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
@@ -472,11 +492,15 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : OR3_LimitSwitches_Pin */
-  GPIO_InitStruct.Pin = OR3_LimitSwitches_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(OR3_LimitSwitches_GPIO_Port, &GPIO_InitStruct);
+  /*Configure GPIO pin : PB9 */
+  GPIO_InitStruct.Pin = GPIO_PIN_9;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI9_5_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
@@ -484,6 +508,23 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+// Limit Switch Interrupt Functionality
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+
+	if((GPIO_Pin == GPIO_PIN_9)) {
+		if((HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_9) == GPIO_PIN_SET)){
+			 // HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
+			  HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
+			  HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
+			  HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_3);
+			  }
+	}
+	else{
+		__NOP();
+	}
+
+}
 /* USER CODE END 4 */
 
 /**
