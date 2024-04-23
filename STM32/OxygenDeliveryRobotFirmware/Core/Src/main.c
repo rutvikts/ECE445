@@ -67,6 +67,25 @@ uint32_t MAP(uint32_t au32_IN, uint32_t au32_INmin, uint32_t au32_INmax, uint32_
 int mapChannel(int speed, int minLimit, int maxLimit, int defaultValue){
 	return MAP(speed, -10, 10, minLimit, maxLimit);
 }
+
+uint32_t counter1 = 0;
+int16_t count1 = 0;
+uint32_t counter2 = 0;
+int16_t count2 = 0;
+uint32_t counter3 = 0;
+int16_t count3 = 0;
+
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
+	counter1 = __HAL_TIM_GET_COUNTER(&htim2);
+	count1 = (int16_t) counter1;
+
+	counter2 = __HAL_TIM_GET_COUNTER(&htim3);
+	count2 = (int16_t) counter2;
+
+	counter3 = __HAL_TIM_GET_COUNTER(&htim4);
+	count3 = (int16_t) counter3;
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -109,9 +128,16 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2); // Setting up PWM Timer
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3); // Setting up PWM Timer
 
-	int M1_Speed = -10;
-	int M2_Speed = -10;
-	int M3_Speed = -10;
+	HAL_TIM_Encoder_Start_IT(&htim2, TIM_CHANNEL_ALL); // Setting up Encoders
+	HAL_TIM_Encoder_Start_IT(&htim3, TIM_CHANNEL_ALL);
+	HAL_TIM_Encoder_Start_IT(&htim4, TIM_CHANNEL_ALL);
+
+	int M1_Speed = 0;
+	int M2_Speed = 0;
+	int M3_Speed = 0;
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -123,10 +149,10 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 	// Setting up USB message and sending through serial.
-	uint8_t buffer[] = "Hello World!\r\n";
+	uint8_t buffer[] = "Hello World!!!!!\r\n";
 	CDC_Transmit_FS(buffer, sizeof(buffer));
 	HAL_Delay(1000);
-
+//
 	// Mapping Range of -10 to 10 to the duty cycle of the motors.
 
 	htim1.Instance->CCR1 = mapChannel(M1_Speed, 1400, 1620, 1510); // current, minimum, maximum, default
@@ -144,6 +170,7 @@ int main(void)
 		M3_Speed = -10;
 	}
 
+//	HAL_TIM_PeriodElapsedCallback(&htim2);
   }
   /* USER CODE END 3 */
 }
@@ -213,6 +240,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	}
 
 }
+
 /* USER CODE END 4 */
 
 /**

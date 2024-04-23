@@ -1,6 +1,7 @@
 ../Core/Src/main.c:62:10:MAP	1
 ../Core/Src/main.c:67:5:mapChannel	1
-../Core/Src/main.c:76:5:main	2
-../Core/Src/main.c:155:6:SystemClock_Config	4
-../Core/Src/main.c:200:6:HAL_GPIO_EXTI_Callback	3
-../Core/Src/main.c:222:6:Error_Handler	1
+../Core/Src/main.c:78:6:HAL_TIM_IC_CaptureCallback	1
+../Core/Src/main.c:95:5:main	2
+../Core/Src/main.c:182:6:SystemClock_Config	4
+../Core/Src/main.c:227:6:HAL_GPIO_EXTI_Callback	3
+../Core/Src/main.c:250:6:Error_Handler	1
