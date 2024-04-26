@@ -1,4 +1,3 @@
-// #include "/Users/rutviksayankar/Repos/ECE445_SP24/OWB/Makerfabs-ESP32-UWB-DW3000-main/Dw3000/src/dw3000.h"
 # include "dw3000.h"
 #include "SPI.h"
 
