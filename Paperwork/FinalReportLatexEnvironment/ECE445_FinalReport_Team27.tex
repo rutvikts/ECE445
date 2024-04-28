@@ -25,161 +25,143 @@
     \textit{Kalyniouk, Nazar}\\
     \textit{nazark2@illinois.edu} \\
     \hfill \\ 
-    \textbf{Under the guidance of} \\ 
+    \textbf{Teaching Assistant} \\ 
     \textit{Subramaniam, Selva} \\
     \textit{ss170@illinois.edu} 
 } 
 \date{\today} % Sets date for date compiled
 
+% This section redefines the chapter headings, this allows us to remove the implicit "Chapter #" that comes before a provided chapter title.
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      %\if@mainmatter
+        %\huge\bfseries \@chapapp\space \thechapter
+        \Huge\bfseries \thechapter.\space%
+        %\par\nobreak
+        %\vskip 20\p@
+      %\fi
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother
+
 % The preamble ends with the command \begin{document}
 \begin{document}
     \maketitle % creates title using information in preamble (title, author, date)
+
+    \begin{abstract}
+        Test
+    \end{abstract}
     
     \pagebreak
     \tableofcontents % creates table of contents
     \pagebreak
 
-    \section{Terms and Keywords}
-    \vspace{0.8cm}
-    \begin{itemize}
-        \item ChILD - Children's Interstitial and Diffuse Lung Disease
-        \item PCB – Printed Circuit Board
-        \item OWB - Three-Wheeled Omni-Wheel Bot
-        \item UWB - Ultra-wideband is a radio technology that can use a very low energy level for short-range, high-bandwidth communications over a large portion of the radio spectrum.
-        \item ESP32 - A series of low-cost, low-power system-on-a-chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
-        \item RPM - Revolutions per minute
-        \item GPIO - General-purpose input/output
-        \item SPI - Serial Peripheral Interface
-        \item PWM - Pulse-width modulation
-        \item MPH - Miles per hour
-        \item OpenCV - (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
-        \item OpenPose - Real-time multi-person keypoint detection library for body, face, hands, and foot estimation.
-        \item TDoA - Time Difference of Arrival 
-        \item ToF - Time of Flight
-    \end{itemize}
-
-    \pagebreak
-
     \chapter{Introduction}
-    \section{Team Project Overview}
+    \section{Project Overview}
     Children's interstitial and diffuse lung disease (ChILD) is a collection of diseases or disorders. These diseases cause a thickening of the interstitium (the tissue that extends throughout the lungs) due to scarring, inflammation, or fluid buildup \cite{ChILD-2022}. This eventually affects a patient’s ability to breathe and distribute enough oxygen to the blood. Numerous children experience the impact of this situation, requiring supplemental oxygen for their daily activities. It hampers the mobility and freedom of young infants, diminishing their growth and confidence. Moreover, parents face an increased burden, not only caring for their child but also having to be directly involved in managing the oxygen tank as their child moves around.
 
     Given the absence of relevant solutions in the current market, our project aims to ease the challenges faced by parents and provide the freedom for young children to explore their surroundings. As a proof of concept for an affordable solution, we propose a three-wheeled omnidirectional mobile robot capable of supporting a filled M-6 oxygen tank. We plan to implement two localization subsystems to ensure redundancy and enhance child safety. The first subsystem utilizes ultra-wide band (UWB) transceivers for triangulating the child's location relative to the robot in indoor environments, this is similar to how Apple AirTags triangulate their location relative to an iPhone \cite{airtag_uwb} (although AirTags use a combination of UWB and Bluetooth triangulation \cite{airtag_ble}). The second subsystem makes use of a desktop web camera which streams video to a Raspberry Pi where it will leverage open-source object tracking libraries to improve our directional accuracy in tracking a child. The final main subsystem focuses on the drive train, chassis and close range object detection of the robot.
 
-    \chapter{Individual Design Work}
-    \section{Design Considerations \& Diagrams}
+    \section{Block Diagram}
+    insert block diagram here 
 
-    \subsection{PCB Design}
-    The design of the schematic of the PCB was done due to the main required components and what all was needed to ensure the components were properly powered and able to communicate, I completed all of the parts except for the power regulation circuits. The layout of the PCB required a different style of thought (\ref{fig:MainBoardv1.1_Layout}). I had to consider how the board would be used, what connections would come out of the board and in what direction they would need to face. This is important as it would help prevent wiring from getting messy and therefore preventing any possible issues that may arrise from having messy wiring. I chose to keep the motor power, PWM and encoder wiring close together on the layout. Each of those things are also facing the same direction, this should help ensure that wiring won't get tangled together. The connections for the SPI bus are all also facing the same direction. Finally, the power input from the battery is far away from other connections, and should not get mixed up with anything else on the board.
+    \subsection{Omniwheel Drivetrain System}
+    General Overview on system here
 
-    Knowing the importance of visual indicators during debugging, I have added LEDs for each power level to help indicate when the circuit is live and when power has been properly stepped down. Aside from general PCB organization, a very helpful item that has been added is the QR code linking to our project Github that is on the board. This gives us the ability to quickly check for something incase any issue arrises and it gives a third party observer a place to learn more about the project.
-
-    Finally, understanding the importance of knowing the connections during debugging I've ensured that I have labeled as much as possible in terms of connectors and pins. There should be no confusion when wiring or PCB assembly in terms of what goes where.
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.6\textwidth]{MainSchematic.png}
-        \caption{MainBoardv1.1 Main Schematic}
-        \label{fig:MainSchematic}
-    \end{figure}
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.6\textwidth]{PowerSchematic.png}
-        \caption{MainBoardv1.1 Power Schematic}
-        \label{fig:PowerSchematic}
-    \end{figure}
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.6\textwidth]{ORSchematic.png}
-        \caption{MainBoardv1.1 OR3 Gate Schematic}
-        \label{fig:ORSchematic}
-    \end{figure}
-
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{KiCAD_MainBoardv2_Screenshot.png}
-        \caption{MainBoardv1.1 Board Layout}
-        \label{fig:MainBoardv1.1_Layout}
-    \end{figure}
+    \subsection{Ultra Wideband Triangulation System}
+    General Overview on system here
     
-    \subsection{UWB System}
-    After ordering the UWB transceivers from \href{https://www.makerfabs.com/esp32-uwb-dw3000.html}{MakerFabs} I was able to get started on testing out the accuracy of the transceivers, and seeing how I would be able to send packets back and forth. I began by implementing a simple ranging test (\ref{fig:UWBRanging}). With some moving around of the transceivers I was able to get a fairly accurate reading of the distance between two transceivers (\ref{fig:UWBRangingSerialMonitor}).
+    \subsection{Close Range Object Detection System}
+    General Overview on system here
+    
+    \subsection{Computer Vision System}
+    General Overview on system here
+    
+    \subsection{Control System}
+    General Overview on system here
+    
+    \subsection{Power System}
+    General Overview on system here
 
-    I am currently in progress tweaking the triangulation code with three transceivers, to get a location relative to two anchors.
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{UWB_30cm.png}
-        \caption{UWB Ranging Test}
-        \label{fig:UWBRanging}
-    \end{figure}
+    \chapter{Design}
+    \section{Design Procedure}
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{UWB_30cm_SerialMonitor.png}
-        \caption{UWB Ranging Test - Serial Monitor Output}
-        \label{fig:UWBRangingSerialMonitor}
-    \end{figure}
+    \subsection{Omniwheel Drivetrain System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
 
-    \subsection{Bumper Limit Switch \& 3D Printing}
+    \subsection{Ultra Wideband Triangulation System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
+    
+    \subsection{Close Range Object Detection System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
+    
+    \subsection{Computer Vision System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
+    
+    \subsection{Control System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
+    
+    \subsection{Power System}
+    Discuss your design decisions for each block at the most general level: What alternative approaches to the design are possible, which was chosen, and why is it desirable? Introduce the major design equations or other design tools used; show the general form of the circuits and describe their functions.
 
-    I have worked with Aidan on desiging the bumper limit switch. Mainly I have been focused on the 3D printablity of the part. Testing the prints, and seeing what tweaks need to be made. Currently we're focusing on modularity of the bumper. Creating a screw connector between the actual bumper and the limit switch (\ref{fig:LimitSwitchScrewTerminal}). This way if something gets damaged on impact we only have to reprint one part of the assembly.
+    \section{Design Details}
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{LimitSwitchScrewTerminal.png}
-        \caption{Test Prints for the Limit Switch Screw Terminal}
-        \label{fig:LimitSwitchScrewTerminal}
-    \end{figure}
+    \subsection{Omniwheel Drivetrain System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.
 
-    \subsection{Chassis Design \& Build}
-    I have been in close talks with the ECE Machine Shop specifically Gregg and Jordan regarding the design and manufacturing of the robot. We been able to sort out many issues and design questions, the main questions being the following:
+    \subsection{Ultra Wideband Triangulation System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.
 
-    \begin{itemize}
-        \item Q: How to mount the omni-wheel onto the short motor axle?
-        \item A: Custom axle to wheel hub should be built.
-        \item Q: How to position the oxygen tank to lower the center of gravity to maintain robot stability and safety?
-        \item A: We will be cutting a hole in the top level and lowering the oxygen tank to rest on the bottom level and be supported laterally by the top level (NOT shown in figure \ref{fig:RobotChassisBuild}).
-        \item Q: Robot base material, what is best to ensure a low center of gravity?
-        \item A: Medium-density fiberboard (MDF) is a great option and if needed we can add extra weight to the underside of the robot chassis.
-        \item Q: How to support robot weight, is something extra like a caster wheel required under the center of the robot?
-        \item A: MDF will be sturdy enought given our weight requirements.
-    \end{itemize}
+    \subsection{Close Range Object Detection System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.
 
-    The inital CAD design of the robot I designed can be seen in figure \ref{fig:Robot_CAD}. The current version of the robot chassis can be seen in figure \ref{fig:RobotChassisBuild}.
+    \subsection{Computer Vision System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{Robot_CAD.png}
-        \caption{Inital Robot CAD Assembly}
-        \label{fig:Robot_CAD}
-    \end{figure}
+    \subsection{Control System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.  
 
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[angle=-90,width=0.8\textwidth]{RobotChassisBuild.png}
-        \caption{Current Robot Chassis Assembly}
-        \label{fig:RobotChassisBuild}
-    \end{figure}
+    \subsection{Power System}
+    Present the detailed design, with diagrams and component values. Show how the design equations were applied. Give equations and diagrams with specific design values and data. Place large data tables in an appendix. Circuit diagrams that are too large to be readable on a single page should be broken into pieces for presentation. The full diagram may be included in an appendix. Use photographs only as necessary and treat them, along with all other graphics except tables, as figures.
 
-    \section{Testing/Verification}
-    \label{sec:Testing}
-    In terms of testing we will be using a modular testing plan, testing various subsystems individually. The week of March 25th is currently being used for testing of the accuracy for UWB triangulation. If testing passes then we can begin implementing the direction vector calculations that will help give the robot a direction to follow from the UWB data. Following that, testing of the power systems on the V1.1 of the PCB is also happening this week (our current bottleneck if the arrival of the PCBs), but we have all the components required, any issues will get revised and sent out in the fourth round of PCB orders. The hole in the top level of the chassis was completed on \today, and the robot motor and movement testing will occur during the week of April 1st. These are the main systems that require testing. Unfortunately, no further data has been gathered to show results in the form of graphs or tables but will be created within the next two weeks.
+    \chapter{Verification}
 
-    \subsection{Contingency plans for failed tests}
-    If testing fails on the UWB subsystem and we are unable to get the system to accurately triangulation location, we will be able to use the UWB for ranging which is already functional. With this and an angular vector provided from the Computer Vision subsystem we will still be able to accurately track a child.
+    Discuss the testing of the completed project and its major blocks. Provide solid technical data, and present it in an easily grasped manner, using graphs where necessary. Include any standard tests for your type of circuit and all specific ones you feel are needed to prove that the design goals were met. Discuss the Requirement and Verification Table from your design review. Including the table in an appendix will help avoid lengthy and tedious narrative description in the main text, which may not be of immediate interest to your imagined audience of managers. Do not discuss low-level requirements unless they failed to verify, or you found that they were critical in some unexpected way, or you need to makes changes—for instance, to the tolerances or acceptable ranges of quantitative results. It is important to hit the main points and explain any requirement that is not verified, but keep the discussion concise and refer interested readers to the appendix for details.
 
-    If testing fails on the power subsystem of the PCB, we have a Power Distribution Panel from an old FRC robot that can easily be used to help supply the power to the motors and we will breadboard our 5V supply power.
+    \section{Omniwheel Drivetrain System}
+    Verification details on the system here
 
-    \chapter{Conclusion}
+    \section{Ultra Wideband Triangulation System}
+    Verification details on the system here
+    
+    \section{Close Range Object Detection System}
+    Verification details on the system here
+    
+    \section{Computer Vision System}
+    Verification details on the system here
+    
+    \section{Control System}
+    Verification details on the system here
+    
+    \section{Power System}
+    Verification details on the system here
 
-    \section{Self-assessment}
-    I do believe I have a slightly heavy workload for this project, but it is something I am aware of and okay with given the number of tasks required to complete this project. Following that, I believe we are slightly behind schedule. There are many unknowns we need to account for and need to give ourselves as much time as possible to sort them out.
+    \chapter{Costs}
 
-    \section{Plans for remaining work}
-    Please refer to the section \ref{sec:Testing} for the the short term plan. After that point it will be subsystem integration, where we will performing sensor fusions of the UWB and computer vision subsystem, and integrating the rest of the subsystems onto the chassis. I believe we are on track to finish the project, but it will definitely require all hands on deck to get it done properly.
+    Labor cost estimates should use the following formula for each partner: ideal salary (hourly rate) = actual hours spent * 2.5 
+    
+    Include estimates for electronics and machine shop hours, as applicable. For parts, use real values when you know them; make realistic estimates otherwise. List both the retail cost and what you or the department paid (in this case you may list lab-owned pieces as free). If the project might be commercially viable, estimate the cost of mass-production by listing bulk-purchase costs. Make sure any tables are numbered appropriately, given titles, and cited directly in the text. 
+
+    \chapter{Conclusions}
+
+    Bring together, concisely, the conclusions to be drawn. It may be appropriate, depending on the nature of the project, to begin or end with a two- or three-sentence executive summary. The reader needs to be convinced that the design will work. Summarize your accomplishments. If uncertainties remain, they should be pointed out, and alternatives, such as modifying performance specifications, should be spelled out to deal with foreseeable outcomes. Use words, not equations or diagrams. Devote a section to ethical considerations with reference to the IEEE Code of Ethics and any other applicable code (e.g., the AMA Code of Medical Ethics for certain bioengineering projects). Either here or in the background discussion of your introduction, provide a paragraph addressing the broader impacts of your project in terms of global, economic, environmental and/or societal contexts.
 
     \section{Ethics and Safety}
     \subsection{Ethical Considerations}
@@ -197,6 +179,27 @@
     One aspect of our project where safety must be considered is regarding the use of lithium batteries. We acknowledge the potential risks associated with the misuse of lithium batteries. We are committed to following the safety guidelines associated with the batteries we plan on using. More specifically, maintaining the battery’s temperature within the recommended range. Also, we are dedicated to the responsible disposal of batteries to ensure sustainability.
 
     Since we are incorporating motors into our design, we will deploy essential control systems to mitigate potential hazards such as collisions with the environment. Safe operation will be ensured with the use of sensors, vision systems, and warning systems.
+
+    \appendix
+
+    \chapter{Appendix}
+
+    \section{Terms and Keywords}
+    \begin{itemize}
+        \item ChILD - Children's Interstitial and Diffuse Lung Disease
+        \item PCB – Printed Circuit Board
+        \item OWB - Three-Wheeled Omni-Wheel Bot
+        \item UWB - Ultra-wideband is a radio technology that can use a very low energy level for short-range, high-bandwidth communications over a large portion of the radio spectrum.
+        \item ESP32 - A series of low-cost, low-power system-on-a-chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.
+        \item RPM - Revolutions per minute
+        \item GPIO - General-purpose input/output
+        \item SPI - Serial Peripheral Interface
+        \item PWM - Pulse-width modulation
+        \item MPH - Miles per hour
+        \item OpenCV - (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
+        \item TDoA - Time Difference of Arrival 
+        \item ToF - Time of Flight
+    \end{itemize}
 
     \bibliographystyle{IEEEtran}
     \bibliography{ref}
