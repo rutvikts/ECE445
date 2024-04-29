@@ -58,6 +58,9 @@ unsigned char reverse(unsigned char b) {
 }
 
 void setup(){
+  // Set up serial monitor
+  Serial.begin(1000000);
+
   // Set all pins as inputs
   pinMode(CH1, INPUT);
   pinMode(CH2, INPUT);
@@ -101,6 +104,9 @@ void loop() {
     received = false;
 
     digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
+    
+    Serial.print("Received Data: ");
+    Serial.println(receivedData, HEX);
 
     // SPDR = receivedData + 1;
     if (receivedData == 0x67) {

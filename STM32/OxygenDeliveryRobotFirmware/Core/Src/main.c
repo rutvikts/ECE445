@@ -365,8 +365,8 @@ int main(void)
 //	data[0] = address;
 //
 //	CS_Enable ();  // pull the pin low
-//	SPI_Transmit (data, 1);  // send address (just need to send something random
-//	SPI_Receive (RxDataTest, 1);  // receive 6 bytes data
+//	SPI_Transmit (data, 1);  // send test
+//	SPI_Receive (RxDataTest, 1);  // receive 1 byte of  test data
 //	CS_Disable ();  // pull the pin high
 //	HAL_Delay(500);
 
@@ -386,7 +386,7 @@ int main(void)
 //	}
 
 
-	// Working SPI Transmit
+////	 Working SPI Transmit
 //	CS_Enable ();  // pull the cs pin low
 //	SPI_Transmit (data, 1);  // write data to register
 //	CS_Disable ();  // pull the cs pin high
@@ -498,6 +498,8 @@ int main(void)
 
 	HAL_Delay(3000);
 
+	//end proper
+
 //	M1_Speed = -10;
 //	M2_Speed = -10;
 //	M3_Speed = 10;
@@ -519,7 +521,7 @@ int main(void)
 //
 //	measureRPM();
 
-	//end proper
+
 
 //	M1_Speed += 1;
 //	M2_Speed += 1;
