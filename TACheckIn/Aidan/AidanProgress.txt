@@ -27,5 +27,18 @@ Ordered necessary parts for our project.
 
 4/8/2024: Got limit switches working and showing proper voltage when pressed thanks to https://www.ebay.com/itm/333999755279
 
+4/11/2024: started work on limit switch code on STM32. Started with implementing it in the main loop. Tried to implement STM32Cube files in C++ which was a failure
 
+4/14/2024: Transitioned to writing files in C which helped me make progress. Was able to get the limit switch to turn on an LED on the STM dev board
 
+4/15/2024: Transitioned to treating limit switch input as an interrupt which allowed me to keep an LED consistently on once the switch is pressed
+
+4/16/2024: Got the limit switch code to halt the PWM signal until the reset button is pressed which completed the high level requirement.
+
+4/22/2024: started trying to get the robot moving at variable speeds. Figured out that we needed to appropriately calibrate the motor controllers
+
+4/23/2024: Continued work on STM to try and get the robot moving properly
+
+4/24/2024 Got the STM to control the robot and was able to get the robot to drive around.
+
+4/25-5/1: report writing and clean up
