@@ -19,6 +19,12 @@ Numerous children experience the impact of this situation, requiring supplementa
 
 Mobile oxygen delivery is a mostly untapped market for users both elderly and young. This project details a prototype design for a mobile oxygen delivery robot. We utilize a three-wheeled omnidirectional drivetrain, ultra-wideband triangulation, computer vision, and a simple Roomba-style bumper system. We remove ourselves from the context of dealing with oxygen-related tubing as swivel solutions already exist and focus on the issue of creating a robot that can autonomously and efficiently move an oxygen tank around in an indoor space.
 
-![Final Robot](/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotPic.png "Final Robot Design")
+### Final Robot Design
+<p align="center">
+  <img width="460" height="650" src="/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotPic.png">
+</p>
 
-![Final Robot Underside](/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotUndersidePic.png "Final Robot Design Underside Wiring")
+### Final Robot Wiring (Underside)
+<p align="center">
+  <img width="400" height="400" src="/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotUndersidePic.png">
+</p>
