@@ -1,3 +1,11 @@
+Week of 04/29
+- Final Report
+- Clean up
+
+Week of 04/22
+- Final Presentation
+- Robot final touches
+
 Week of 04/15
 - PCB assembly of MainBoard v2.0
 - Organized wiring
