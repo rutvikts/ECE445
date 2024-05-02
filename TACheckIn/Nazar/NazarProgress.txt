@@ -54,3 +54,10 @@ The center of the child and the center of the screen will be compared to determi
 15-April  Setting up RaspberryPi  Model 3B didn't work, trying to get model 3A+ to work. Both Model 3Bs have issues with micro sd hat.
 16-April  Setting up RaspberryPi  Installing libraries and OpenCV code on raspberry pi.
 17-April  Setting up RaspberryPi Video  These videos didn't help/crashed RaspberryPi: https://www.youtube.com/watch?v=QzVYnG-WaM4, https://www.youtube.com/watch?v=rdBTLOx0gi4, https://www.youtube.com/watch?v=QRe0QzS079s, https://www.youtube.com/watch?v=xlmJsTeZL3w
+18-April through 23-April Final Demo Prep  Rewired components and organized wiring, implmented OpenCV hardware.
+24-April  Final Demo Prep  Prepared robot for final demo. Optimized OpenCV code.
+25-April  Final Demo  Prepared robot for final demo. Fixed OpenCV code.
+26-April  Mock Presentation  Worked on mock presentation.
+29-April  Final Presentation  Created presentation.
+30-April  Final Presentation  Prepared lines and notes to explain presentation.
+1-May  Final Paper  Compiled all information into a LateX document for Final Paper.
