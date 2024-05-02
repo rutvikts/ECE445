@@ -21,3 +21,6 @@ Mobile oxygen delivery is a mostly untapped market for users both elderly and yo
 
 ![Final Robot Picture]([https://github.com/rutvikts/ECE445_SP24/tree/main/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotPic.png])
 
+![alt text]([https://github.com/rutvikts/ECE445_SP24/blob/main/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotPic.png] "Logo Title Text 1")
+
+
