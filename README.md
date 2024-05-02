@@ -13,4 +13,11 @@ Team Members:
 
 Children's interstitial and diffuse lung disease (ChILD) is a collection of diseases or disorders. These diseases cause a thickening of the interstitium (the tissue that extends throughout the lungs) due to scarring, inflammation, or fluid buildup. This eventually affects a patient’s ability to breathe and distribute enough oxygen to the blood.
 
-Numerous children experience the impact of this situation, requiring supplemental oxygen for their daily activities. It hampers the mobility and freedom of young infants, diminishing their growth and confidence. Moreover, parents face an increased burden, not only caring for their child but also having to be directly involved in managing the oxygen tank as their child moves around.
+Numerous children experience the impact of this situation, requiring supplemental oxygen for their daily activities. It hampers the mobility and freedom of young infants, diminishing their growth and confidence. Moreover, parents face an increased burden, not only caring for their child but also being directly involved in managing the oxygen tank as their child moves around.
+
+## Solution
+
+Mobile oxygen delivery is a mostly untapped market for users both elderly and young. This project details a prototype design for a mobile oxygen delivery robot. We utilize a three-wheeled omnidirectional drivetrain, ultra-wideband triangulation, computer vision, and a simple Roomba-style bumper system. We remove ourselves from the context of dealing with oxygen-related tubing as swivel solutions already exist and focus on the issue of creating a robot that can autonomously and efficiently move an oxygen tank around in an indoor space.
+
+![Final Robot Picture]([https://github.com/rutvikts/ECE445_SP24/tree/main/Paperwork/FinalReportLatexEnvironment/Images/FinalRobotPic.png])
+
